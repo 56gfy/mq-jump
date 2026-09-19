@@ -124,7 +124,12 @@ function lookup(manual){
 
 function jump(){
   if (!addr || !addr.url) return;
-  var u = addr.url + (addr.token ? ('#k=' + addr.token) : '');
+  var base = String(addr.url).replace(/\/+$/, '');      // 去掉尾部斜杠
+  // ⚠ 必须补 /m 路径 —— addr.json 里存的是裸主机
+  //   （如 https://xxx.trycloudflare.com），手机监控页在 /m。
+  //   漏了 /m 会跳到隧道根路径 → 404 或空白页。
+  if (!/\/m(\/|$|#|\?)/.test(base)) base += '/m';
+  var u = base + (addr.token ? ('#k=' + encodeURIComponent(addr.token)) : '');
   location.href = u;
 }
 
