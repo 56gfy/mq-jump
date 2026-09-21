@@ -103,12 +103,33 @@ function lookup(manual){
     addr = d;
     el('upd').textContent = d.updated ? d.updated : '未知';
     var age = d.ts ? Math.round((Date.now() - d.ts) / 1000) : -1;
-    el('txt').textContent = age >= 0 && age < 600
-      ? '服务器在线 · ' + (age < 60 ? '刚刚更新' : Math.round(age/60) + ' 分钟前更新')
-      : '已找到地址 · 点下方进入';
-    setDot('ok');
-    el('go').disabled = false;
-    el('go').textContent = '进入手机监控';
+    /* v2.13.7：ts 现在由主应用每 2 分钟心跳刷新（不只是地址变更时写），
+       所以 age 表达的是「最后一次确认服务器在线的时间」。
+       三档判据：
+         < 10 分钟  → 在线，直接跳
+         < 1 小时   → 地址可能仍有效，但电脑可能已关机/休眠，让用户自己点
+         >= 1 小时  → 基本是电脑关了，明确说清楚，别让用户以为 app 坏了 */
+    if (age >= 0 && age < 600) {
+      el('txt').textContent = '服务器在线 · ' + (age < 120 ? '刚刚更新' : Math.round(age/60) + ' 分钟前更新');
+      setDot('ok');
+      el('go').disabled = false;
+      el('go').textContent = '进入手机监控';
+    } else if (age >= 0 && age < 3600) {
+      el('txt').textContent = '地址可能仍有效（' + Math.round(age/60) + ' 分钟未更新）';
+      setDot('');
+      el('go').disabled = false;
+      el('go').textContent = '试着进入';
+    } else {
+      var mins = Math.round(age/60);
+      var when = mins < 120 ? mins + ' 分钟' : Math.round(mins/60) + ' 小时';
+      el('txt').textContent = '电脑可能没开机（地址已 ' + when + ' 未更新）';
+      setDot('bad');
+      el('go').disabled = false;          // 仍允许点：万一只是内网抖动
+      el('go').textContent = '仍然尝试进入';
+      el('errBox').className = 'err';
+      el('errBox').innerHTML = '这台电脑已经 ' + when + ' 没上报状态了，多半是关机或休眠。' +
+        '<br>开机后本页会自动恢复，不用改任何设置。';
+    }
     if (!manual) setTimeout(jump, 700);        // 自动跳转
   }).catch(function(e){
     setDot('bad');
