@@ -1,14 +1,14 @@
 {
   "model": [
-    "https://27d66635ab6764d3-218-65-253-168.serveousercontent.com",
+    "https://49905cf8a7aaecaa-218-65-253-168.serveousercontent.com",
     "http://100.102.35.125:8890",
     "http://192.168.31.212:8890"
   ],
   "conv": [
-    "https://7eefab678de71bf6-218-65-253-168.serveousercontent.com",
+    "https://181598391fcf8d66-218-65-253-168.serveousercontent.com",
     "http://100.102.35.125:8787",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-03 12:42:48",
-  "ts": 1791002568940
+  "updated": "2026-10-03 12:54:57",
+  "ts": 1791003297943
 }
