@@ -606,30 +606,36 @@ async function loadSnapshot(){
 
 /* ---------- ② 再取实时（异步，不阻塞快照渲染） ---------- */
 function getLiveAddr(cb){
+  /* 说明：PROBE 只是"探针基址"。
+     - file:// 打开 → PROBE 是绝对地址（本机 127.0.0.1:8899），直接用
+     - http/https 打开 → PROBE 为空（同源相对），需先读同目录 monitor_addr.json
+       拿到当前隧道地址，再取实时；读不到则退回 localStorage 里的上次地址 */
   var saved = "";
   try{ saved = localStorage.getItem("probe_addr") || ""; }catch(e){ saved = ""; }
   var finish = function(addr){ cb(String(addr||"").trim().replace(/\/+$/, "")); };
 
-  /* 探针地址为空 → 沿用「探针地址来源」：先地址文件，再上次存档 */
-  if (PROBE){
-    var fallback = saved;
-    try{
-      var r = new XMLHttpRequest();
-      r.open("GET", "monitor_addr.json?t=" + Date.now(), true);
-      r.onreadystatechange = function(){
-        if (r.readyState !== 4) return;
-        var u = "";
-        try{
-          if (r.status >= 200 && r.status < 300){ u = (JSON.parse(r.responseText) || {}).probe || ""; }
-        }catch(e){ u = ""; }
-        finish(u || fallback || PROBE);
-      };
-      r.onerror = function(){ finish(fallback || PROBE); };
-      r.send();
-    }catch(e){ finish(fallback || PROBE); }
-  } else {
-    finish(saved);
+  /* file:// 直连本机探针 */
+  if (location.protocol === "file:"){
+    finish(PROBE || saved);
+    return;
   }
+
+  /* http/https：读同目录地址文件 → 隧道地址 */
+  var fallback = saved;
+  try{
+    var r = new XMLHttpRequest();
+    r.open("GET", "monitor_addr.json?t=" + Date.now(), true);
+    r.onreadystatechange = function(){
+      if (r.readyState !== 4) return;
+      var u = "";
+      try{
+        if (r.status >= 200 && r.status < 300){ u = (JSON.parse(r.responseText) || {}).probe || ""; }
+      }catch(e){ u = ""; }
+      finish(u || fallback || "");
+    };
+    r.onerror = function(){ finish(fallback || ""); };
+    r.send();
+  }catch(e){ finish(fallback || ""); }
 }
 
 async function loadLive(){
