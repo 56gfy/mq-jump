@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-06 00:46:21",
+  "generated_at": "2026-10-06 00:47:03",
   "interval": 30,
   "summary": {
     "total": 12,
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 655,
+      "latency_ms": 1287,
       "error": null,
-      "checked_at": "2026-10-06 00:46:16",
+      "checked_at": "2026-10-06 00:46:49",
       "history": [
-        {
-          "t": "2026-10-06 00:30:33",
-          "ok": true,
-          "code": 200,
-          "ms": 854
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 655
+        },
+        {
+          "t": "2026-10-06 00:46:49",
+          "ok": true,
+          "code": 200,
+          "ms": 1287
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1788,
+      "latency_ms": 476,
       "error": null,
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:49",
       "history": [
-        {
-          "t": "2026-10-06 00:30:33",
-          "ok": true,
-          "code": 200,
-          "ms": 657
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 1788
+        },
+        {
+          "t": "2026-10-06 00:46:49",
+          "ok": true,
+          "code": 200,
+          "ms": 476
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 287,
+      "latency_ms": 521,
       "error": null,
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:49",
       "history": [
-        {
-          "t": "2026-10-06 00:30:33",
-          "ok": true,
-          "code": 200,
-          "ms": 439
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 287
+        },
+        {
+          "t": "2026-10-06 00:46:49",
+          "ok": true,
+          "code": 200,
+          "ms": 521
         }
       ]
     },
@@ -603,16 +603,10 @@
       "remark": "本机直连 *.trycloudflare.com 会在 TLS 握手阶段被重置（需走系统代理 127.0.0.1:7890）；探测失败不等于服务下线，请以服务端实际运行为准。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 1281,
+      "latency_ms": 2069,
       "error": null,
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:50",
       "history": [
-        {
-          "t": "2026-10-06 00:30:34",
-          "ok": true,
-          "code": 404,
-          "ms": 1926
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -786,6 +780,12 @@
           "ok": true,
           "code": 404,
           "ms": 1281
+        },
+        {
+          "t": "2026-10-06 00:46:50",
+          "ok": true,
+          "code": 404,
+          "ms": 2069
         }
       ]
     },
@@ -798,16 +798,10 @@
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1661,
+      "latency_ms": 1363,
       "error": null,
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:50",
       "history": [
-        {
-          "t": "2026-10-06 00:30:34",
-          "ok": true,
-          "code": 200,
-          "ms": 1006
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -981,6 +975,12 @@
           "ok": true,
           "code": 200,
           "ms": 1661
+        },
+        {
+          "t": "2026-10-06 00:46:50",
+          "ok": true,
+          "code": 200,
+          "ms": 1363
         }
       ]
     },
@@ -995,14 +995,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:50",
       "history": [
-        {
-          "t": "2026-10-06 00:30:34",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": false,
@@ -1173,6 +1167,12 @@
         },
         {
           "t": "2026-10-06 00:46:18",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-06 00:46:50",
           "ok": false,
           "code": null,
           "ms": null
@@ -1190,14 +1190,8 @@
       "status_code": 200,
       "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:50",
       "history": [
-        {
-          "t": "2026-10-06 00:30:34",
-          "ok": true,
-          "code": 200,
-          "ms": 2
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -1368,6 +1362,12 @@
         },
         {
           "t": "2026-10-06 00:46:18",
+          "ok": true,
+          "code": 200,
+          "ms": 3
+        },
+        {
+          "t": "2026-10-06 00:46:50",
           "ok": true,
           "code": 200,
           "ms": 3
@@ -1385,14 +1385,8 @@
       "status_code": 200,
       "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:50",
       "history": [
-        {
-          "t": "2026-10-06 00:30:34",
-          "ok": true,
-          "code": 200,
-          "ms": 3
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -1563,6 +1557,12 @@
         },
         {
           "t": "2026-10-06 00:46:18",
+          "ok": true,
+          "code": 200,
+          "ms": 3
+        },
+        {
+          "t": "2026-10-06 00:46:50",
           "ok": true,
           "code": 200,
           "ms": 3
@@ -1578,16 +1578,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 3,
+      "latency_ms": 4,
       "error": null,
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:50",
       "history": [
-        {
-          "t": "2026-10-06 00:30:34",
-          "ok": true,
-          "code": 200,
-          "ms": 3
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -1761,6 +1755,12 @@
           "ok": true,
           "code": 200,
           "ms": 3
+        },
+        {
+          "t": "2026-10-06 00:46:50",
+          "ok": true,
+          "code": 200,
+          "ms": 4
         }
       ]
     },
@@ -1775,14 +1775,8 @@
       "status_code": 404,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:50",
       "history": [
-        {
-          "t": "2026-10-06 00:30:34",
-          "ok": true,
-          "code": 404,
-          "ms": 10
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -1953,6 +1947,12 @@
         },
         {
           "t": "2026-10-06 00:46:18",
+          "ok": true,
+          "code": 404,
+          "ms": 2
+        },
+        {
+          "t": "2026-10-06 00:46:50",
           "ok": true,
           "code": 404,
           "ms": 2
@@ -1970,14 +1970,8 @@
       "status_code": 404,
       "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:50",
       "history": [
-        {
-          "t": "2026-10-06 00:30:34",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -2151,6 +2145,12 @@
           "ok": true,
           "code": 404,
           "ms": 3
+        },
+        {
+          "t": "2026-10-06 00:46:50",
+          "ok": true,
+          "code": 404,
+          "ms": 3
         }
       ]
     },
@@ -2163,16 +2163,10 @@
       "remark": "channels-bridge，根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 3,
+      "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-06 00:46:18",
+      "checked_at": "2026-10-06 00:46:50",
       "history": [
-        {
-          "t": "2026-10-06 00:30:34",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
         {
           "t": "2026-10-06 00:31:06",
           "ok": true,
@@ -2346,9 +2340,15 @@
           "ok": true,
           "code": 404,
           "ms": 3
+        },
+        {
+          "t": "2026-10-06 00:46:50",
+          "ok": true,
+          "code": 404,
+          "ms": 2
         }
       ]
     }
   ],
-  "embedded_at": "2026-10-06 00:46:21"
+  "embedded_at": "2026-10-06 00:47:03"
 }
