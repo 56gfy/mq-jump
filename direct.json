@@ -1,12 +1,12 @@
 {
   "model": [
-    "https://bd2f050c7d20bd32-218-65-253-168.serveousercontent.com",
+    "https://4996d604d2ec3330-218-65-253-168.serveousercontent.com",
     "http://192.168.31.212:8890"
   ],
   "conv": [
-    "https://3ece87cf7a42acb5-218-65-253-168.serveousercontent.com",
+    "https://ac5668a8a1528027-218-65-253-168.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-05 15:52:35",
-  "ts": 1791186755667
+  "updated": "2026-10-05 15:57:54",
+  "ts": 1791187074874
 }
