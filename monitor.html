@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>线上服务监控 · 入口</title>
+<style>
+  :root{--bg:#0b0f14;--card:#141a22;--line:#232c38;--txt:#e8eaed;--sub:#93a0b4;--warn:#ff9f0a;}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--bg);color:var(--txt);
+       font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+       display:flex;align-items:center;justify-content:center;padding:24px}
+  .box{width:100%;max-width:420px;background:var(--card);border:1px solid var(--line);
+       border-radius:18px;padding:26px 22px;text-align:center}
+  h1{margin:0 0 6px;font-size:19px;font-weight:600}
+  p{margin:0;color:var(--sub);font-size:13px;line-height:1.7}
+  .url{margin:14px 0 4px;font-size:12px;color:var(--sub);word-break:break-all}
+  .msg{margin-top:16px;font-size:13px;color:var(--warn);min-height:20px}
+  button{margin-top:18px;width:100%;padding:13px;border:0;border-radius:12px;
+         background:#0a84ff;color:#fff;font-size:15px;font-weight:600}
+  button:disabled{background:#2a3441;color:#6f7d90}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>线上服务监控</h1>
+  <p id="hint">正在查找探针地址…</p>
+  <div class="url" id="where"></div>
+  <div class="msg" id="msg"></div>
+  <button id="go" disabled>进入看板</button>
+</div>
+<script>
+(function () {
+  var go = document.getElementById('go');
+  var msg = document.getElementById('msg');
+  var hint = document.getElementById('hint');
+  var where = document.getElementById('where');
+  var target = '';
+
+  function failed(t) {
+    hint.textContent = '没找到可用的探针地址';
+    msg.textContent = t || '请确认电脑上「线上服务监控」的隧道在运行。';
+  }
+
+  fetch('monitor_addr.json?t=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function (d) {
+      target = (d && d.probe) || '';
+      if (!target) { failed('地址记录是空的，隧道可能还没建起来。'); return; }
+      hint.textContent = '探针地址已找到';
+      where.textContent = target + '  ·  更新于 ' + (d.updated || '未知');
+      go.disabled = false;
+      location.replace(target + '/');
+    })
+    .catch(function (e) { failed('读取地址记录失败：' + e.message); });
+
+  go.addEventListener('click', function () { if (target) location.href = target + '/'; });
+})();
+</script>
+</body>
+</html>
