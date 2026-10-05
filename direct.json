@@ -1,11 +1,11 @@
 {
   "model": [
-    "https://reliance-reservoir-click-ghz.trycloudflare.com",
+    "https://images-traffic-accepting-gear.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
   "conv": [
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-05 16:18:02",
-  "ts": 1791188282092
+  "updated": "2026-10-05 18:16:51",
+  "ts": 1791195411256
 }
