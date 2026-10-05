@@ -1,12 +1,11 @@
 {
   "model": [
-    "https://2378ecaa0876a2db-218-65-253-168.serveousercontent.com",
+    "https://reliance-reservoir-click-ghz.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
   "conv": [
-    "https://b72fc4d55dd323ec-218-65-253-168.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-05 16:10:02",
-  "ts": 1791187802721
+  "updated": "2026-10-05 16:12:06",
+  "ts": 1791187926164
 }
