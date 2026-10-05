@@ -634,8 +634,10 @@ function getLiveAddr(cb){
 
 async function loadLive(){
   getLiveAddr(async function(addr){
+    window.__LIVE_ADDR__ = addr || "";
     if (!addr){
       /* 探针地址为空 → 跳过，静默保持快照 */
+      window.__LIVE_STATUS__ = "no-addr";
       if (curSource === "snapshot") showBanner("snapshot",
         (document.getElementById("alert-detail").textContent || "隧道离线时正常现象"));
       return;
@@ -649,9 +651,11 @@ async function loadLive(){
       if (sig !== lastSig){ lastSig = sig; render(data); }
       setMeta(data);
       curSource = "live";
+      window.__LIVE_STATUS__ = "live";
       try{ localStorage.setItem("probe_addr", addr); }catch(e){}
       showBanner("live", "实时源 " + addr + " 可用");
     }catch(e){
+      window.__LIVE_STATUS__ = "err:" + e.message;
       if (curSource === "snapshot"){
         showBanner("live-fallback", "实时源不可达，显示快照（" + e.message + "）");
       } else {
