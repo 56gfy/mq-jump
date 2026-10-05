@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-05 21:27:04",
+  "generated_at": "2026-10-05 21:27:19",
   "interval": 30,
   "summary": {
     "total": 12,
-    "ok": 9,
-    "bad": 3,
+    "ok": 8,
+    "bad": 4,
     "unknown": 0
   },
   "targets": [
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 358,
+      "latency_ms": 480,
       "error": null,
-      "checked_at": "2026-10-05 21:26:40",
+      "checked_at": "2026-10-05 21:27:16",
       "history": [
-        {
-          "t": "2026-10-05 21:10:08",
-          "ok": true,
-          "code": 200,
-          "ms": 975
-        },
         {
           "t": "2026-10-05 21:10:45",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 358
+        },
+        {
+          "t": "2026-10-05 21:27:16",
+          "ok": true,
+          "code": 200,
+          "ms": 480
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 539,
+      "latency_ms": 639,
       "error": null,
-      "checked_at": "2026-10-05 21:26:40",
+      "checked_at": "2026-10-05 21:27:16",
       "history": [
-        {
-          "t": "2026-10-05 21:10:08",
-          "ok": true,
-          "code": 200,
-          "ms": 937
-        },
         {
           "t": "2026-10-05 21:10:45",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 539
+        },
+        {
+          "t": "2026-10-05 21:27:16",
+          "ok": true,
+          "code": 200,
+          "ms": 639
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 460,
+      "latency_ms": 443,
       "error": null,
-      "checked_at": "2026-10-05 21:26:40",
+      "checked_at": "2026-10-05 21:27:16",
       "history": [
-        {
-          "t": "2026-10-05 21:10:08",
-          "ok": true,
-          "code": 200,
-          "ms": 638
-        },
         {
           "t": "2026-10-05 21:10:45",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 460
+        },
+        {
+          "t": "2026-10-05 21:27:16",
+          "ok": true,
+          "code": 200,
+          "ms": 443
         }
       ]
     },
@@ -602,17 +602,11 @@
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/addr.json",
       "remark": "本机对 *.trycloudflare.com 的 DNS 可能被拦截，探测失败不等于服务下线，请以服务端实际运行为准。",
       "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：[WinError 10054] 远程主机强迫关闭了一个现有的连接。",
-      "checked_at": "2026-10-05 21:26:41",
+      "status_code": 404,
+      "latency_ms": 2135,
+      "error": "HTTP 404",
+      "checked_at": "2026-10-05 21:27:18",
       "history": [
-        {
-          "t": "2026-10-05 21:10:15",
-          "ok": false,
-          "code": 404,
-          "ms": 1146
-        },
         {
           "t": "2026-10-05 21:10:52",
           "ok": false,
@@ -786,6 +780,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-05 21:27:18",
+          "ok": false,
+          "code": 404,
+          "ms": 2135
         }
       ]
     },
@@ -796,18 +796,12 @@
       "url": "https://images-traffic-accepting-gear.trycloudflare.com",
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json",
       "remark": "地址来自 model_addr.json 的 url 字段。",
-      "ok": true,
-      "status_code": 200,
-      "latency_ms": 1411,
-      "error": null,
-      "checked_at": "2026-10-05 21:26:41",
+      "ok": false,
+      "status_code": null,
+      "latency_ms": null,
+      "error": "连接失败：[WinError 10054] 远程主机强迫关闭了一个现有的连接。",
+      "checked_at": "2026-10-05 21:27:18",
       "history": [
-        {
-          "t": "2026-10-05 21:10:15",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-05 21:10:52",
           "ok": true,
@@ -981,6 +975,12 @@
           "ok": true,
           "code": 200,
           "ms": 1411
+        },
+        {
+          "t": "2026-10-05 21:27:18",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -2350,5 +2350,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-05 21:27:04"
+  "embedded_at": "2026-10-05 21:27:19"
 }
