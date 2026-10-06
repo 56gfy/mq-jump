@@ -1,13 +1,13 @@
 {
   "model": [
-    "https://306cb40cc15e10f1-61-139-228-42.serveousercontent.com",
+    "https://54566204b95a20db-61-139-228-42.serveousercontent.com",
     "https://suspension-source-ideal-artificial.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
   "conv": [
-    "https://38f711a494091b87-61-139-228-42.serveousercontent.com",
+    "https://a84361491e02ae0f-61-139-228-42.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-06 13:39:57",
-  "ts": 1791265197616
+  "updated": "2026-10-06 13:52:06",
+  "ts": 1791265926765
 }
