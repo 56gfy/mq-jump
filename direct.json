@@ -1,13 +1,15 @@
 {
   "model": [
-    "https://3b441d2e33cddd58-61-139-228-42.serveousercontent.com",
+    "https://mq-model-56gfy-2026.loca.lt",
+    "https://c15a043bcf3d41ad-61-139-228-42.serveousercontent.com",
     "https://suspension-source-ideal-artificial.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
   "conv": [
-    "https://b907c6d078da77af-61-139-228-42.serveousercontent.com",
+    "https://young-kangaroo-58.loca.lt",
+    "https://59ad8ac0783c6bc0-61-139-228-42.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-06 18:31:27",
-  "ts": 1791282687003
+  "updated": "2026-10-06 18:31:45",
+  "ts": 1791282705360
 }
