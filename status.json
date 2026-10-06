@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-06 17:30:59",
+  "generated_at": "2026-10-06 17:31:02",
   "interval": 30,
   "summary": {
     "total": 12,
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 380,
+      "latency_ms": 1450,
       "error": null,
-      "checked_at": "2026-10-06 17:30:29",
+      "checked_at": "2026-10-06 17:31:02",
       "history": [
-        {
-          "t": "2026-10-06 17:15:02",
-          "ok": true,
-          "code": 200,
-          "ms": 531
-        },
         {
           "t": "2026-10-06 17:15:34",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 380
+        },
+        {
+          "t": "2026-10-06 17:31:02",
+          "ok": true,
+          "code": 200,
+          "ms": 1450
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 273,
+      "latency_ms": 481,
       "error": null,
-      "checked_at": "2026-10-06 17:30:29",
+      "checked_at": "2026-10-06 17:31:02",
       "history": [
-        {
-          "t": "2026-10-06 17:15:02",
-          "ok": true,
-          "code": 200,
-          "ms": 710
-        },
         {
           "t": "2026-10-06 17:15:34",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 273
+        },
+        {
+          "t": "2026-10-06 17:31:02",
+          "ok": true,
+          "code": 200,
+          "ms": 481
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 290,
+      "latency_ms": 429,
       "error": null,
-      "checked_at": "2026-10-06 17:30:29",
+      "checked_at": "2026-10-06 17:31:02",
       "history": [
-        {
-          "t": "2026-10-06 17:15:02",
-          "ok": true,
-          "code": 200,
-          "ms": 457
-        },
         {
           "t": "2026-10-06 17:15:34",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 290
+        },
+        {
+          "t": "2026-10-06 17:31:02",
+          "ok": true,
+          "code": 200,
+          "ms": 429
         }
       ]
     },
@@ -605,14 +605,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
-      "checked_at": "2026-10-06 17:30:30",
+      "checked_at": "2026-10-06 17:31:02",
       "history": [
-        {
-          "t": "2026-10-06 17:15:02",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-06 17:15:34",
           "ok": false,
@@ -783,6 +777,12 @@
         },
         {
           "t": "2026-10-06 17:30:30",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-06 17:31:02",
           "ok": false,
           "code": null,
           "ms": null
@@ -2350,5 +2350,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-06 17:30:59"
+  "embedded_at": "2026-10-06 17:31:02"
 }
