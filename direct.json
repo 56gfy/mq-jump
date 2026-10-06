@@ -1,7 +1,7 @@
 {
   "model": [
     "https://mq-model-56gfy-2026.loca.lt",
-    "https://c028490cc6b2f40b-61-139-228-42.serveousercontent.com",
+    "https://3d69decc80eb05ee-61-139-228-42.serveousercontent.com",
     "https://suspension-source-ideal-artificial.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
@@ -10,6 +10,6 @@
     "https://d1e7eaa0243aca5f-61-139-228-42.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-07 01:24:14",
-  "ts": 1791307454674
+  "updated": "2026-10-07 01:25:06",
+  "ts": 1791307506068
 }
