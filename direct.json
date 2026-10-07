@@ -1,7 +1,7 @@
 {
   "model": [
     "https://mq-model-56gfy-2026.loca.lt",
-    "https://d19795e2aa1f042b-61-139-228-42.serveousercontent.com",
+    "https://835ba8b4f52e4251-61-139-228-42.serveousercontent.com",
     "https://min-bridge-placing-initiative.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
@@ -10,6 +10,6 @@
     "https://a2b2b21f19187414-61-139-228-42.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-07 11:11:54",
-  "ts": 1791342714319
+  "updated": "2026-10-07 11:12:44",
+  "ts": 1791342764459
 }
