@@ -2,6 +2,7 @@
   "model": [
     "https://dry-quail-65.loca.lt",
     "https://c3a4eef52cc6a95f-61-139-228-42.serveousercontent.com",
+    "https://min-bridge-placing-initiative.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
   "conv": [
@@ -9,6 +10,6 @@
     "https://d971600e5fbf82ae-61-139-228-42.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-07 08:58:24",
-  "ts": 1791334704737
+  "updated": "2026-10-07 09:00:44",
+  "ts": 1791334844916
 }
