@@ -1,7 +1,7 @@
 {
   "model": [
     "https://tasty-monkey-50.loca.lt",
-    "https://68c0b5acfbc75224-61-139-228-42.serveousercontent.com",
+    "https://a00b94f8a79d1ad3-61-139-228-42.serveousercontent.com",
     "https://min-bridge-placing-initiative.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
@@ -10,6 +10,6 @@
     "https://ccecbf11f109fd50-61-139-228-42.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-07 18:06:59",
-  "ts": 1791367619248
+  "updated": "2026-10-07 18:07:52",
+  "ts": 1791367672180
 }
