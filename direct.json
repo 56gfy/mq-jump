@@ -1,8 +1,7 @@
 {
   "model": [
     "https://dry-quail-65.loca.lt",
-    "https://a6bdf3fcf264368d-61-139-228-42.serveousercontent.com",
-    "https://voice-grows-room-graphics.trycloudflare.com",
+    "https://c3a4eef52cc6a95f-61-139-228-42.serveousercontent.com",
     "http://192.168.31.212:8890"
   ],
   "conv": [
@@ -10,6 +9,6 @@
     "https://d971600e5fbf82ae-61-139-228-42.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-07 08:57:33",
-  "ts": 1791334653858
+  "updated": "2026-10-07 08:58:24",
+  "ts": 1791334704737
 }
