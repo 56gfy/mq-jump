@@ -1,15 +1,15 @@
 {
   "model": [
     "https://mq-model-56gfy-2026.loca.lt",
-    "https://aa42bec83c5f487c-61-139-228-42.serveousercontent.com",
+    "https://dc1914e7f542a6b8-61-139-228-42.serveousercontent.com",
     "https://min-bridge-placing-initiative.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
   "conv": [
     "https://mq-credit-56gfy-2026.loca.lt",
-    "https://766d7e96c344a0ab-61-139-228-42.serveousercontent.com",
+    "https://1ff741bc7707b976-61-139-228-42.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-07 10:23:51",
-  "ts": 1791339831393
+  "updated": "2026-10-07 10:36:11",
+  "ts": 1791340571149
 }
