@@ -1,7 +1,7 @@
 {
   "model": [
     "https://clever-dragonfly-70.loca.lt",
-    "https://67e0864e7a854e7f-61-139-228-42.serveousercontent.com",
+    "https://b0fba8576d7b32da-61-139-228-42.serveousercontent.com",
     "https://min-bridge-placing-initiative.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
@@ -10,6 +10,6 @@
     "https://c4a95019e0cd3aa6-61-139-228-42.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-09 00:35:49",
-  "ts": 1791477349426
+  "updated": "2026-10-09 00:43:05",
+  "ts": 1791477785026
 }
