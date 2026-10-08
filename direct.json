@@ -1,7 +1,7 @@
 {
   "model": [
     "https://mq-model-56gfy-2026.loca.lt",
-    "https://a3e349b607569f4f-113-12-55-52.serveousercontent.com",
+    "https://577b3a5dc8cd5f0c-113-12-55-52.serveousercontent.com",
     "https://senate-informational-precipitation-seller.trycloudflare.com",
     "http://100.102.35.125:8890",
     "http://192.168.31.212:8890"
@@ -12,6 +12,6 @@
     "http://100.102.35.125:8787",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-09 03:39:47",
-  "ts": 1791488387676
+  "updated": "2026-10-09 03:42:53",
+  "ts": 1791488573027
 }
