@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-09 01:51:50",
+  "generated_at": "2026-10-09 01:52:09",
   "interval": 30,
   "summary": {
     "total": 12,
-    "ok": 5,
-    "bad": 7,
+    "ok": 8,
+    "bad": 4,
     "unknown": 0
   },
   "targets": [
@@ -13,21 +13,15 @@
       "name": "AI 资讯站",
       "group": "公网静态站",
       "kind": "static",
-      "url": null,
+      "url": "https://56gfy.github.io/ai-daily/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "探测器内部错误: ",
-      "checked_at": "2026-10-09 01:51:26",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 460,
+      "error": null,
+      "checked_at": "2026-10-09 01:52:04",
       "history": [
-        {
-          "t": "2026-10-09 01:34:04",
-          "ok": true,
-          "code": 200,
-          "ms": 279
-        },
         {
           "t": "2026-10-09 01:34:39",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-09 01:52:04",
+          "ok": true,
+          "code": 200,
+          "ms": 460
         }
       ]
     },
@@ -211,18 +211,12 @@
       "url": "https://56gfy.github.io/kanwo-page/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：timed out",
-      "checked_at": "2026-10-09 01:51:33",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 609,
+      "error": null,
+      "checked_at": "2026-10-09 01:52:04",
       "history": [
-        {
-          "t": "2026-10-09 01:34:04",
-          "ok": true,
-          "code": 200,
-          "ms": 275
-        },
         {
           "t": "2026-10-09 01:34:39",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-09 01:52:04",
+          "ok": true,
+          "code": 200,
+          "ms": 609
         }
       ]
     },
@@ -406,18 +406,12 @@
       "url": "https://56gfy.github.io/mq-jump/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：timed out",
-      "checked_at": "2026-10-09 01:51:33",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 430,
+      "error": null,
+      "checked_at": "2026-10-09 01:52:04",
       "history": [
-        {
-          "t": "2026-10-09 01:34:04",
-          "ok": true,
-          "code": 200,
-          "ms": 245
-        },
         {
           "t": "2026-10-09 01:34:39",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-09 01:52:04",
+          "ok": true,
+          "code": 200,
+          "ms": 430
         }
       ]
     },
@@ -605,14 +605,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/addr.json）：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
-      "checked_at": "2026-10-09 01:51:33",
+      "checked_at": "2026-10-09 01:52:08",
       "history": [
-        {
-          "t": "2026-10-09 01:34:08",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 01:34:44",
           "ok": false,
@@ -783,6 +777,12 @@
         },
         {
           "t": "2026-10-09 01:51:33",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-09 01:52:08",
           "ok": false,
           "code": null,
           "ms": null
@@ -800,14 +800,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json）：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
-      "checked_at": "2026-10-09 01:51:33",
+      "checked_at": "2026-10-09 01:52:08",
       "history": [
-        {
-          "t": "2026-10-09 01:34:08",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 01:34:44",
           "ok": false,
@@ -978,6 +972,12 @@
         },
         {
           "t": "2026-10-09 01:51:33",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-09 01:52:08",
           "ok": false,
           "code": null,
           "ms": null
@@ -995,14 +995,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-10-09 01:51:33",
+      "checked_at": "2026-10-09 01:52:08",
       "history": [
-        {
-          "t": "2026-10-09 01:34:08",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 01:34:44",
           "ok": false,
@@ -1176,6 +1170,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-09 01:52:08",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -1190,14 +1190,8 @@
       "status_code": 200,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-09 01:51:33",
+      "checked_at": "2026-10-09 01:52:08",
       "history": [
-        {
-          "t": "2026-10-09 01:34:08",
-          "ok": true,
-          "code": 200,
-          "ms": 2
-        },
         {
           "t": "2026-10-09 01:34:44",
           "ok": true,
@@ -1371,6 +1365,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-10-09 01:52:08",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -1383,16 +1383,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 2,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-09 01:51:33",
+      "checked_at": "2026-10-09 01:52:08",
       "history": [
-        {
-          "t": "2026-10-09 01:34:08",
-          "ok": true,
-          "code": 200,
-          "ms": 4
-        },
         {
           "t": "2026-10-09 01:34:44",
           "ok": true,
@@ -1566,6 +1560,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-10-09 01:52:08",
+          "ok": true,
+          "code": 200,
+          "ms": 3
         }
       ]
     },
@@ -1578,16 +1578,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 2,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-09 01:51:33",
+      "checked_at": "2026-10-09 01:52:08",
       "history": [
-        {
-          "t": "2026-10-09 01:34:08",
-          "ok": true,
-          "code": 200,
-          "ms": 3
-        },
         {
           "t": "2026-10-09 01:34:44",
           "ok": true,
@@ -1761,6 +1755,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-10-09 01:52:08",
+          "ok": true,
+          "code": 200,
+          "ms": 3
         }
       ]
     },
@@ -1775,14 +1775,8 @@
       "status_code": 404,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-09 01:51:33",
+      "checked_at": "2026-10-09 01:52:08",
       "history": [
-        {
-          "t": "2026-10-09 01:34:08",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
         {
           "t": "2026-10-09 01:34:44",
           "ok": true,
@@ -1956,6 +1950,12 @@
           "ok": true,
           "code": 404,
           "ms": 2
+        },
+        {
+          "t": "2026-10-09 01:52:08",
+          "ok": true,
+          "code": 404,
+          "ms": 2
         }
       ]
     },
@@ -1968,16 +1968,10 @@
       "remark": "MuQingConverterCore（uvicorn），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 2,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-09 01:51:33",
+      "checked_at": "2026-10-09 01:52:08",
       "history": [
-        {
-          "t": "2026-10-09 01:34:08",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
         {
           "t": "2026-10-09 01:34:44",
           "ok": true,
@@ -2151,6 +2145,12 @@
           "ok": true,
           "code": 404,
           "ms": 2
+        },
+        {
+          "t": "2026-10-09 01:52:08",
+          "ok": true,
+          "code": 404,
+          "ms": 3
         }
       ]
     },
@@ -2165,14 +2165,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-10-09 01:51:33",
+      "checked_at": "2026-10-09 01:52:08",
       "history": [
-        {
-          "t": "2026-10-09 01:34:08",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 01:34:44",
           "ok": false,
@@ -2346,9 +2340,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-09 01:52:08",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-10-09 01:51:50"
+  "embedded_at": "2026-10-09 01:52:09"
 }
