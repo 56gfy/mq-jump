@@ -1,15 +1,17 @@
 {
   "model": [
+    "https://mq-model-56gfy-2026.loca.lt",
     "https://7f87c74a2bf2e7c5-113-12-55-52.serveousercontent.com",
     "https://senate-informational-precipitation-seller.trycloudflare.com",
     "http://100.102.35.125:8890",
     "http://192.168.31.212:8890"
   ],
   "conv": [
+    "https://mq-credit-56gfy-2026.loca.lt",
     "https://c1bb8b1295353b55-113-12-55-52.serveousercontent.com",
     "http://100.102.35.125:8787",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-09 01:53:19",
-  "ts": 1791481999658
+  "updated": "2026-10-09 01:54:08",
+  "ts": 1791482048697
 }
