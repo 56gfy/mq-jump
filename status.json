@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-09 07:31:04",
+  "generated_at": "2026-10-09 07:31:48",
   "interval": 30,
   "summary": {
     "total": 12,
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 439,
+      "latency_ms": 265,
       "error": null,
-      "checked_at": "2026-10-09 07:30:44",
+      "checked_at": "2026-10-09 07:31:19",
       "history": [
-        {
-          "t": "2026-10-09 07:13:46",
-          "ok": true,
-          "code": 200,
-          "ms": 268
-        },
         {
           "t": "2026-10-09 07:14:22",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 439
+        },
+        {
+          "t": "2026-10-09 07:31:19",
+          "ok": true,
+          "code": 200,
+          "ms": 265
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 452,
+      "latency_ms": 265,
       "error": null,
-      "checked_at": "2026-10-09 07:30:44",
+      "checked_at": "2026-10-09 07:31:19",
       "history": [
-        {
-          "t": "2026-10-09 07:13:46",
-          "ok": true,
-          "code": 200,
-          "ms": 268
-        },
         {
           "t": "2026-10-09 07:14:22",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 452
+        },
+        {
+          "t": "2026-10-09 07:31:19",
+          "ok": true,
+          "code": 200,
+          "ms": 265
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 414,
+      "latency_ms": 232,
       "error": null,
-      "checked_at": "2026-10-09 07:30:44",
+      "checked_at": "2026-10-09 07:31:19",
       "history": [
-        {
-          "t": "2026-10-09 07:13:46",
-          "ok": true,
-          "code": 200,
-          "ms": 231
-        },
         {
           "t": "2026-10-09 07:14:22",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 414
+        },
+        {
+          "t": "2026-10-09 07:31:19",
+          "ok": true,
+          "code": 200,
+          "ms": 232
         }
       ]
     },
@@ -605,14 +605,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/addr.json）：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
-      "checked_at": "2026-10-09 07:30:49",
+      "checked_at": "2026-10-09 07:31:24",
       "history": [
-        {
-          "t": "2026-10-09 07:13:51",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 07:14:26",
           "ok": false,
@@ -783,6 +777,12 @@
         },
         {
           "t": "2026-10-09 07:30:49",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-09 07:31:24",
           "ok": false,
           "code": null,
           "ms": null
@@ -800,14 +800,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json）：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
-      "checked_at": "2026-10-09 07:30:49",
+      "checked_at": "2026-10-09 07:31:24",
       "history": [
-        {
-          "t": "2026-10-09 07:13:51",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 07:14:26",
           "ok": false,
@@ -978,6 +972,12 @@
         },
         {
           "t": "2026-10-09 07:30:49",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-09 07:31:24",
           "ok": false,
           "code": null,
           "ms": null
@@ -995,14 +995,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-10-09 07:30:49",
+      "checked_at": "2026-10-09 07:31:24",
       "history": [
-        {
-          "t": "2026-10-09 07:13:51",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 07:14:26",
           "ok": false,
@@ -1176,6 +1170,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-09 07:31:24",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -1190,14 +1190,8 @@
       "status_code": 200,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-09 07:30:49",
+      "checked_at": "2026-10-09 07:31:24",
       "history": [
-        {
-          "t": "2026-10-09 07:13:51",
-          "ok": true,
-          "code": 200,
-          "ms": 3
-        },
         {
           "t": "2026-10-09 07:14:26",
           "ok": true,
@@ -1371,6 +1365,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-10-09 07:31:24",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -1383,16 +1383,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 3,
+      "latency_ms": 4,
       "error": null,
-      "checked_at": "2026-10-09 07:30:49",
+      "checked_at": "2026-10-09 07:31:24",
       "history": [
-        {
-          "t": "2026-10-09 07:13:51",
-          "ok": true,
-          "code": 200,
-          "ms": 4
-        },
         {
           "t": "2026-10-09 07:14:26",
           "ok": true,
@@ -1566,6 +1560,12 @@
           "ok": true,
           "code": 200,
           "ms": 3
+        },
+        {
+          "t": "2026-10-09 07:31:24",
+          "ok": true,
+          "code": 200,
+          "ms": 4
         }
       ]
     },
@@ -1578,16 +1578,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 5,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-09 07:30:49",
+      "checked_at": "2026-10-09 07:31:24",
       "history": [
-        {
-          "t": "2026-10-09 07:13:51",
-          "ok": true,
-          "code": 200,
-          "ms": 5
-        },
         {
           "t": "2026-10-09 07:14:26",
           "ok": true,
@@ -1761,6 +1755,12 @@
           "ok": true,
           "code": 200,
           "ms": 5
+        },
+        {
+          "t": "2026-10-09 07:31:24",
+          "ok": true,
+          "code": 200,
+          "ms": 3
         }
       ]
     },
@@ -1773,16 +1773,10 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 4,
+      "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-09 07:30:49",
+      "checked_at": "2026-10-09 07:31:24",
       "history": [
-        {
-          "t": "2026-10-09 07:13:51",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
         {
           "t": "2026-10-09 07:14:26",
           "ok": true,
@@ -1956,6 +1950,12 @@
           "ok": true,
           "code": 404,
           "ms": 4
+        },
+        {
+          "t": "2026-10-09 07:31:24",
+          "ok": true,
+          "code": 404,
+          "ms": 2
         }
       ]
     },
@@ -1970,14 +1970,8 @@
       "status_code": 404,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-09 07:30:49",
+      "checked_at": "2026-10-09 07:31:24",
       "history": [
-        {
-          "t": "2026-10-09 07:13:51",
-          "ok": true,
-          "code": 404,
-          "ms": 5
-        },
         {
           "t": "2026-10-09 07:14:26",
           "ok": true,
@@ -2151,6 +2145,12 @@
           "ok": true,
           "code": 404,
           "ms": 2
+        },
+        {
+          "t": "2026-10-09 07:31:24",
+          "ok": true,
+          "code": 404,
+          "ms": 2
         }
       ]
     },
@@ -2165,14 +2165,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-10-09 07:30:49",
+      "checked_at": "2026-10-09 07:31:24",
       "history": [
-        {
-          "t": "2026-10-09 07:13:51",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 07:14:26",
           "ok": false,
@@ -2346,9 +2340,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-09 07:31:24",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-10-09 07:31:04"
+  "embedded_at": "2026-10-09 07:31:48"
 }
