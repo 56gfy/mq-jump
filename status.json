@@ -1,12 +1,12 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-10 02:31:10",
+  "generated_at": "2026-10-10 02:31:16",
   "interval": 30,
   "summary": {
     "total": 12,
-    "ok": 0,
+    "ok": 3,
     "bad": 0,
-    "unknown": 12
+    "unknown": 9
   },
   "targets": [
     {
@@ -16,12 +16,19 @@
       "url": "https://56gfy.github.io/ai-daily/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 775,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-10 02:31:10",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:10",
+          "ok": true,
+          "code": 200,
+          "ms": 775
+        }
+      ]
     },
     {
       "name": "看我页面源",
@@ -30,12 +37,19 @@
       "url": "https://56gfy.github.io/kanwo-page/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 796,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-10 02:31:10",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:10",
+          "ok": true,
+          "code": 200,
+          "ms": 796
+        }
+      ]
     },
     {
       "name": "mq-jump 地址仓库",
@@ -44,12 +58,19 @@
       "url": "https://56gfy.github.io/mq-jump/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 769,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-10 02:31:10",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:10",
+          "ok": true,
+          "code": 200,
+          "ms": 769
+        }
+      ]
     },
     {
       "name": "沐晴转换器手机监控页",
@@ -178,5 +199,5 @@
       "history": []
     }
   ],
-  "embedded_at": "2026-10-10 02:31:10"
+  "embedded_at": "2026-10-10 02:31:16"
 }
