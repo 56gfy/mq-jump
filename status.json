@@ -1,12 +1,12 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-10 02:31:16",
+  "generated_at": "2026-10-10 02:33:03",
   "interval": 30,
   "summary": {
     "total": 12,
-    "ok": 3,
-    "bad": 0,
-    "unknown": 9
+    "ok": 7,
+    "bad": 5,
+    "unknown": 0
   },
   "targets": [
     {
@@ -18,15 +18,33 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 775,
+      "latency_ms": 602,
       "error": null,
-      "checked_at": "2026-10-10 02:31:10",
+      "checked_at": "2026-10-10 02:32:56",
       "history": [
         {
           "t": "2026-10-10 02:31:10",
           "ok": true,
           "code": 200,
           "ms": 775
+        },
+        {
+          "t": "2026-10-10 02:31:49",
+          "ok": true,
+          "code": 200,
+          "ms": 249
+        },
+        {
+          "t": "2026-10-10 02:32:21",
+          "ok": true,
+          "code": 200,
+          "ms": 473
+        },
+        {
+          "t": "2026-10-10 02:32:56",
+          "ok": true,
+          "code": 200,
+          "ms": 602
         }
       ]
     },
@@ -39,15 +57,33 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 796,
+      "latency_ms": 533,
       "error": null,
-      "checked_at": "2026-10-10 02:31:10",
+      "checked_at": "2026-10-10 02:32:56",
       "history": [
         {
           "t": "2026-10-10 02:31:10",
           "ok": true,
           "code": 200,
           "ms": 796
+        },
+        {
+          "t": "2026-10-10 02:31:49",
+          "ok": true,
+          "code": 200,
+          "ms": 284
+        },
+        {
+          "t": "2026-10-10 02:32:21",
+          "ok": true,
+          "code": 200,
+          "ms": 482
+        },
+        {
+          "t": "2026-10-10 02:32:56",
+          "ok": true,
+          "code": 200,
+          "ms": 533
         }
       ]
     },
@@ -60,15 +96,33 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 769,
+      "latency_ms": 588,
       "error": null,
-      "checked_at": "2026-10-10 02:31:10",
+      "checked_at": "2026-10-10 02:32:56",
       "history": [
         {
           "t": "2026-10-10 02:31:10",
           "ok": true,
           "code": 200,
           "ms": 769
+        },
+        {
+          "t": "2026-10-10 02:31:49",
+          "ok": true,
+          "code": 200,
+          "ms": 248
+        },
+        {
+          "t": "2026-10-10 02:32:21",
+          "ok": true,
+          "code": 200,
+          "ms": 457
+        },
+        {
+          "t": "2026-10-10 02:32:56",
+          "ok": true,
+          "code": 200,
+          "ms": 588
         }
       ]
     },
@@ -76,43 +130,118 @@
       "name": "沐晴转换器手机监控页",
       "group": "隧道服务",
       "kind": "tunnel",
-      "url": null,
+      "url": "https://residents-symphony-affecting-mailing.trycloudflare.com",
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/addr.json",
       "remark": "本机直连 *.trycloudflare.com 会在 TLS 握手阶段被重置（需走系统代理 127.0.0.1:7890）；探测失败不等于服务下线，请以服务端实际运行为准。",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "ok": false,
+      "status_code": 530,
+      "latency_ms": 612,
+      "error": "HTTP 530",
+      "checked_at": "2026-10-10 02:32:58",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:19",
+          "ok": false,
+          "code": 530,
+          "ms": 973
+        },
+        {
+          "t": "2026-10-10 02:31:49",
+          "ok": false,
+          "code": 530,
+          "ms": 622
+        },
+        {
+          "t": "2026-10-10 02:32:22",
+          "ok": false,
+          "code": 530,
+          "ms": 1088
+        },
+        {
+          "t": "2026-10-10 02:32:58",
+          "ok": false,
+          "code": 530,
+          "ms": 612
+        }
+      ]
     },
     {
       "name": "模型切换服务",
       "group": "隧道服务",
       "kind": "tunnel",
-      "url": null,
+      "url": "https://senate-informational-precipitation-seller.trycloudflare.com",
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json",
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "ok": false,
+      "status_code": 530,
+      "latency_ms": 584,
+      "error": "HTTP 530",
+      "checked_at": "2026-10-10 02:32:58",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:19",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:31:49",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:32:22",
+          "ok": false,
+          "code": 530,
+          "ms": 921
+        },
+        {
+          "t": "2026-10-10 02:32:58",
+          "ok": false,
+          "code": 530,
+          "ms": 584
+        }
+      ]
     },
     {
       "name": "HermesMobile",
       "group": "隧道服务",
       "kind": "tunnel",
-      "url": null,
+      "url": "https://paths-raw-highlighted-amendments.trycloudflare.com",
       "addr_source": "C:/Users/Administrator/Desktop/02_开发项目/HermesMobile/logs/current_url.txt",
       "remark": "本机直连 *.trycloudflare.com 会在 TLS 握手阶段被重置（需走系统代理 127.0.0.1:7890）；探测失败不等于服务下线，请以服务端实际运行为准。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：[Errno 11001] getaddrinfo failed",
+      "checked_at": "2026-10-10 02:32:58",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:19",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:31:49",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:32:26",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:32:58",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     },
     {
       "name": "AI 用量监控",
@@ -121,12 +250,37 @@
       "url": "http://127.0.0.1:8080/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 2,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-10 02:32:58",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:19",
+          "ok": true,
+          "code": 200,
+          "ms": 43
+        },
+        {
+          "t": "2026-10-10 02:31:49",
+          "ok": true,
+          "code": 200,
+          "ms": 13
+        },
+        {
+          "t": "2026-10-10 02:32:26",
+          "ok": true,
+          "code": 200,
+          "ms": 2
+        },
+        {
+          "t": "2026-10-10 02:32:58",
+          "ok": true,
+          "code": 200,
+          "ms": 2
+        }
+      ]
     },
     {
       "name": "模型切换服务（本地）",
@@ -135,12 +289,37 @@
       "url": "http://127.0.0.1:8890/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 14,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-10 02:32:58",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:19",
+          "ok": true,
+          "code": 200,
+          "ms": 104
+        },
+        {
+          "t": "2026-10-10 02:31:49",
+          "ok": true,
+          "code": 200,
+          "ms": 4
+        },
+        {
+          "t": "2026-10-10 02:32:26",
+          "ok": true,
+          "code": 200,
+          "ms": 7
+        },
+        {
+          "t": "2026-10-10 02:32:58",
+          "ok": true,
+          "code": 200,
+          "ms": 14
+        }
+      ]
     },
     {
       "name": "Ekko Studio",
@@ -149,12 +328,37 @@
       "url": "http://127.0.0.1:8748/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 5,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-10 02:32:58",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:19",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:31:49",
+          "ok": true,
+          "code": 200,
+          "ms": 209
+        },
+        {
+          "t": "2026-10-10 02:32:26",
+          "ok": true,
+          "code": 200,
+          "ms": 6
+        },
+        {
+          "t": "2026-10-10 02:32:58",
+          "ok": true,
+          "code": 200,
+          "ms": 5
+        }
+      ]
     },
     {
       "name": "Hermes 网关",
@@ -163,12 +367,37 @@
       "url": "http://127.0.0.1:8644/",
       "addr_source": null,
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "checked_at": "2026-10-10 02:32:58",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:19",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:31:51",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:32:26",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:32:58",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     },
     {
       "name": "沐晴转换器核心",
@@ -177,12 +406,37 @@
       "url": "http://127.0.0.1:8787/",
       "addr_source": null,
       "remark": "MuQingConverterCore（uvicorn），根路径无页面属正常，404 即代表进程在线。",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 404,
+      "latency_ms": 2,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-10 02:32:58",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:19",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:31:51",
+          "ok": true,
+          "code": 404,
+          "ms": 3
+        },
+        {
+          "t": "2026-10-10 02:32:26",
+          "ok": true,
+          "code": 404,
+          "ms": 8
+        },
+        {
+          "t": "2026-10-10 02:32:58",
+          "ok": true,
+          "code": 404,
+          "ms": 2
+        }
+      ]
     },
     {
       "name": "Hermes 通道桥接",
@@ -191,13 +445,38 @@
       "url": "http://127.0.0.1:8891/",
       "addr_source": null,
       "remark": "channels-bridge，根路径无页面属正常，404 即代表进程在线。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "checked_at": "2026-10-10 02:32:58",
+      "history": [
+        {
+          "t": "2026-10-10 02:31:19",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:31:51",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:32:26",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-10 02:32:58",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     }
   ],
-  "embedded_at": "2026-10-10 02:31:16"
+  "embedded_at": "2026-10-10 02:33:03"
 }
