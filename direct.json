@@ -1,13 +1,15 @@
 {
   "model": [
+    "https://mq-model-56gfy-2026.loca.lt",
     "https://4179b298a6607f77-113-12-55-52.serveousercontent.com",
     "https://senate-informational-precipitation-seller.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
   "conv": [
+    "https://swift-panther-63.loca.lt",
     "https://6e5273894ab4bf7e-113-12-55-52.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-09 15:51:29",
-  "ts": 1791532289618
+  "updated": "2026-10-09 15:52:26",
+  "ts": 1791532346635
 }
