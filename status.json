@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-09 15:07:03",
+  "generated_at": "2026-10-09 15:09:03",
   "interval": 30,
   "summary": {
     "total": 12,
-    "ok": 9,
-    "bad": 3,
+    "ok": 11,
+    "bad": 1,
     "unknown": 0
   },
   "targets": [
@@ -18,28 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 473,
+      "latency_ms": 748,
       "error": null,
-      "checked_at": "2026-10-09 15:06:49",
+      "checked_at": "2026-10-09 15:08:53",
       "history": [
-        {
-          "t": "2026-10-09 14:46:28",
-          "ok": true,
-          "code": 200,
-          "ms": 461
-        },
-        {
-          "t": "2026-10-09 14:47:09",
-          "ok": true,
-          "code": 200,
-          "ms": 529
-        },
-        {
-          "t": "2026-10-09 14:47:51",
-          "ok": true,
-          "code": 200,
-          "ms": 1630
-        },
         {
           "t": "2026-10-09 14:48:39",
           "ok": true,
@@ -201,6 +183,24 @@
           "ok": true,
           "code": 200,
           "ms": 473
+        },
+        {
+          "t": "2026-10-09 15:07:30",
+          "ok": true,
+          "code": 200,
+          "ms": 469
+        },
+        {
+          "t": "2026-10-09 15:08:12",
+          "ok": true,
+          "code": 200,
+          "ms": 800
+        },
+        {
+          "t": "2026-10-09 15:08:53",
+          "ok": true,
+          "code": 200,
+          "ms": 748
         }
       ]
     },
@@ -213,28 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 457,
+      "latency_ms": 499,
       "error": null,
-      "checked_at": "2026-10-09 15:06:49",
+      "checked_at": "2026-10-09 15:08:53",
       "history": [
-        {
-          "t": "2026-10-09 14:46:28",
-          "ok": true,
-          "code": 200,
-          "ms": 622
-        },
-        {
-          "t": "2026-10-09 14:47:09",
-          "ok": true,
-          "code": 200,
-          "ms": 460
-        },
-        {
-          "t": "2026-10-09 14:47:51",
-          "ok": true,
-          "code": 200,
-          "ms": 688
-        },
         {
           "t": "2026-10-09 14:48:39",
           "ok": true,
@@ -396,6 +378,24 @@
           "ok": true,
           "code": 200,
           "ms": 457
+        },
+        {
+          "t": "2026-10-09 15:07:31",
+          "ok": true,
+          "code": 200,
+          "ms": 1393
+        },
+        {
+          "t": "2026-10-09 15:08:12",
+          "ok": true,
+          "code": 200,
+          "ms": 645
+        },
+        {
+          "t": "2026-10-09 15:08:53",
+          "ok": true,
+          "code": 200,
+          "ms": 499
         }
       ]
     },
@@ -408,28 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1188,
+      "latency_ms": 466,
       "error": null,
-      "checked_at": "2026-10-09 15:06:50",
+      "checked_at": "2026-10-09 15:08:53",
       "history": [
-        {
-          "t": "2026-10-09 14:46:28",
-          "ok": true,
-          "code": 200,
-          "ms": 460
-        },
-        {
-          "t": "2026-10-09 14:47:09",
-          "ok": true,
-          "code": 200,
-          "ms": 454
-        },
-        {
-          "t": "2026-10-09 14:47:51",
-          "ok": true,
-          "code": 200,
-          "ms": 531
-        },
         {
           "t": "2026-10-09 14:48:39",
           "ok": true,
@@ -591,6 +573,24 @@
           "ok": true,
           "code": 200,
           "ms": 1188
+        },
+        {
+          "t": "2026-10-09 15:07:31",
+          "ok": true,
+          "code": 200,
+          "ms": 231
+        },
+        {
+          "t": "2026-10-09 15:08:12",
+          "ok": true,
+          "code": 200,
+          "ms": 424
+        },
+        {
+          "t": "2026-10-09 15:08:53",
+          "ok": true,
+          "code": 200,
+          "ms": 466
         }
       ]
     },
@@ -598,33 +598,15 @@
       "name": "沐晴转换器手机监控页",
       "group": "隧道服务",
       "kind": "tunnel",
-      "url": null,
+      "url": "https://residents-symphony-affecting-mailing.trycloudflare.com",
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/addr.json",
       "remark": "本机直连 *.trycloudflare.com 会在 TLS 握手阶段被重置（需走系统代理 127.0.0.1:7890）；探测失败不等于服务下线，请以服务端实际运行为准。",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/addr.json）：URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
-      "checked_at": "2026-10-09 15:07:00",
+      "ok": true,
+      "status_code": 404,
+      "latency_ms": 1283,
+      "error": null,
+      "checked_at": "2026-10-09 15:08:54",
       "history": [
-        {
-          "t": "2026-10-09 14:46:38",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
-        {
-          "t": "2026-10-09 14:47:19",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
-        {
-          "t": "2026-10-09 14:48:00",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 14:48:41",
           "ok": false,
@@ -786,6 +768,24 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-09 15:07:41",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-09 15:08:22",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-09 15:08:54",
+          "ok": true,
+          "code": 404,
+          "ms": 1283
         }
       ]
     },
@@ -793,33 +793,15 @@
       "name": "模型切换服务",
       "group": "隧道服务",
       "kind": "tunnel",
-      "url": null,
+      "url": "https://senate-informational-precipitation-seller.trycloudflare.com",
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json",
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json）：URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
-      "checked_at": "2026-10-09 15:07:00",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 2113,
+      "error": null,
+      "checked_at": "2026-10-09 15:08:55",
       "history": [
-        {
-          "t": "2026-10-09 14:46:38",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
-        {
-          "t": "2026-10-09 14:47:19",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
-        {
-          "t": "2026-10-09 14:48:00",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 14:48:41",
           "ok": false,
@@ -981,6 +963,24 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-09 15:07:41",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-09 15:08:22",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-09 15:08:55",
+          "ok": true,
+          "code": 200,
+          "ms": 2113
         }
       ]
     },
@@ -995,26 +995,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
-      "checked_at": "2026-10-09 15:07:00",
+      "checked_at": "2026-10-09 15:08:55",
       "history": [
-        {
-          "t": "2026-10-09 14:46:38",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
-        {
-          "t": "2026-10-09 14:47:19",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
-        {
-          "t": "2026-10-09 14:48:00",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-09 14:48:41",
           "ok": false,
@@ -1176,6 +1158,24 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-09 15:07:41",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-09 15:08:22",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-09 15:08:55",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -1188,28 +1188,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 3,
+      "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-09 15:07:00",
+      "checked_at": "2026-10-09 15:08:55",
       "history": [
-        {
-          "t": "2026-10-09 14:46:38",
-          "ok": true,
-          "code": 200,
-          "ms": 2
-        },
-        {
-          "t": "2026-10-09 14:47:19",
-          "ok": true,
-          "code": 200,
-          "ms": 2
-        },
-        {
-          "t": "2026-10-09 14:48:00",
-          "ok": true,
-          "code": 200,
-          "ms": 2
-        },
         {
           "t": "2026-10-09 14:48:41",
           "ok": true,
@@ -1371,6 +1353,24 @@
           "ok": true,
           "code": 200,
           "ms": 3
+        },
+        {
+          "t": "2026-10-09 15:07:41",
+          "ok": true,
+          "code": 200,
+          "ms": 3
+        },
+        {
+          "t": "2026-10-09 15:08:22",
+          "ok": true,
+          "code": 200,
+          "ms": 3
+        },
+        {
+          "t": "2026-10-09 15:08:55",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -1385,26 +1385,8 @@
       "status_code": 200,
       "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-09 15:07:00",
+      "checked_at": "2026-10-09 15:08:55",
       "history": [
-        {
-          "t": "2026-10-09 14:46:38",
-          "ok": true,
-          "code": 200,
-          "ms": 3
-        },
-        {
-          "t": "2026-10-09 14:47:19",
-          "ok": true,
-          "code": 200,
-          "ms": 3
-        },
-        {
-          "t": "2026-10-09 14:48:00",
-          "ok": true,
-          "code": 200,
-          "ms": 20
-        },
         {
           "t": "2026-10-09 14:48:41",
           "ok": true,
@@ -1566,6 +1548,24 @@
           "ok": true,
           "code": 200,
           "ms": 3
+        },
+        {
+          "t": "2026-10-09 15:07:41",
+          "ok": true,
+          "code": 200,
+          "ms": 4
+        },
+        {
+          "t": "2026-10-09 15:08:22",
+          "ok": true,
+          "code": 200,
+          "ms": 3
+        },
+        {
+          "t": "2026-10-09 15:08:55",
+          "ok": true,
+          "code": 200,
+          "ms": 3
         }
       ]
     },
@@ -1580,26 +1580,8 @@
       "status_code": 200,
       "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-09 15:07:00",
+      "checked_at": "2026-10-09 15:08:55",
       "history": [
-        {
-          "t": "2026-10-09 14:46:38",
-          "ok": true,
-          "code": 200,
-          "ms": 3
-        },
-        {
-          "t": "2026-10-09 14:47:19",
-          "ok": true,
-          "code": 200,
-          "ms": 3
-        },
-        {
-          "t": "2026-10-09 14:48:00",
-          "ok": true,
-          "code": 200,
-          "ms": 3
-        },
         {
           "t": "2026-10-09 14:48:41",
           "ok": true,
@@ -1761,6 +1743,24 @@
           "ok": true,
           "code": 200,
           "ms": 3
+        },
+        {
+          "t": "2026-10-09 15:07:41",
+          "ok": true,
+          "code": 200,
+          "ms": 22
+        },
+        {
+          "t": "2026-10-09 15:08:22",
+          "ok": true,
+          "code": 200,
+          "ms": 25
+        },
+        {
+          "t": "2026-10-09 15:08:55",
+          "ok": true,
+          "code": 200,
+          "ms": 3
         }
       ]
     },
@@ -1773,28 +1773,10 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 2,
+      "latency_ms": 23,
       "error": null,
-      "checked_at": "2026-10-09 15:07:00",
+      "checked_at": "2026-10-09 15:08:55",
       "history": [
-        {
-          "t": "2026-10-09 14:46:38",
-          "ok": true,
-          "code": 404,
-          "ms": 3
-        },
-        {
-          "t": "2026-10-09 14:47:19",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
-        {
-          "t": "2026-10-09 14:48:00",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
         {
           "t": "2026-10-09 14:48:41",
           "ok": true,
@@ -1956,6 +1938,24 @@
           "ok": true,
           "code": 404,
           "ms": 2
+        },
+        {
+          "t": "2026-10-09 15:07:41",
+          "ok": true,
+          "code": 404,
+          "ms": 2
+        },
+        {
+          "t": "2026-10-09 15:08:22",
+          "ok": true,
+          "code": 404,
+          "ms": 2
+        },
+        {
+          "t": "2026-10-09 15:08:55",
+          "ok": true,
+          "code": 404,
+          "ms": 23
         }
       ]
     },
@@ -1968,28 +1968,10 @@
       "remark": "MuQingConverterCore（uvicorn），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 4,
+      "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-09 15:07:00",
+      "checked_at": "2026-10-09 15:08:55",
       "history": [
-        {
-          "t": "2026-10-09 14:46:38",
-          "ok": true,
-          "code": 404,
-          "ms": 3
-        },
-        {
-          "t": "2026-10-09 14:47:19",
-          "ok": true,
-          "code": 404,
-          "ms": 3
-        },
-        {
-          "t": "2026-10-09 14:48:00",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
         {
           "t": "2026-10-09 14:48:41",
           "ok": true,
@@ -2151,6 +2133,24 @@
           "ok": true,
           "code": 404,
           "ms": 4
+        },
+        {
+          "t": "2026-10-09 15:07:41",
+          "ok": true,
+          "code": 404,
+          "ms": 2
+        },
+        {
+          "t": "2026-10-09 15:08:22",
+          "ok": true,
+          "code": 404,
+          "ms": 22
+        },
+        {
+          "t": "2026-10-09 15:08:55",
+          "ok": true,
+          "code": 404,
+          "ms": 2
         }
       ]
     },
@@ -2163,28 +2163,10 @@
       "remark": "channels-bridge，根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 3,
+      "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-09 15:07:00",
+      "checked_at": "2026-10-09 15:08:55",
       "history": [
-        {
-          "t": "2026-10-09 14:46:38",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
-        {
-          "t": "2026-10-09 14:47:19",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
-        {
-          "t": "2026-10-09 14:48:00",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
         {
           "t": "2026-10-09 14:48:41",
           "ok": true,
@@ -2346,9 +2328,27 @@
           "ok": true,
           "code": 404,
           "ms": 3
+        },
+        {
+          "t": "2026-10-09 15:07:41",
+          "ok": true,
+          "code": 404,
+          "ms": 2
+        },
+        {
+          "t": "2026-10-09 15:08:22",
+          "ok": true,
+          "code": 404,
+          "ms": 2
+        },
+        {
+          "t": "2026-10-09 15:08:55",
+          "ok": true,
+          "code": 404,
+          "ms": 2
         }
       ]
     }
   ],
-  "embedded_at": "2026-10-09 15:07:03"
+  "embedded_at": "2026-10-09 15:09:03"
 }
