@@ -1,7 +1,7 @@
 {
   "model": [
     "https://mq-model-56gfy-2026.loca.lt",
-    "https://7547b5ea1b3de205-113-12-55-52.serveousercontent.com",
+    "https://1050697b58ef9806-113-12-55-52.serveousercontent.com",
     "https://regulated-lafayette-yields-cordless.trycloudflare.com",
     "http://100.102.35.125:8890",
     "http://192.168.31.212:8890"
@@ -12,6 +12,6 @@
     "http://100.102.35.125:8787",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-11 01:51:28",
-  "ts": 1791654688808
+  "updated": "2026-10-11 01:52:19",
+  "ts": 1791654739139
 }
