@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-10 21:36:51",
+  "generated_at": "2026-10-10 21:37:04",
   "interval": 30,
   "summary": {
     "total": 12,
@@ -2350,5 +2350,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-10 21:36:51"
+  "embedded_at": "2026-10-10 21:37:04"
 }
