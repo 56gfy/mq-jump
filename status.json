@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-11 13:40:13",
+  "generated_at": "2026-10-11 13:41:04",
   "interval": 30,
   "summary": {
     "total": 12,
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 493,
+      "latency_ms": 454,
       "error": null,
-      "checked_at": "2026-10-11 13:39:34",
+      "checked_at": "2026-10-11 13:40:48",
       "history": [
-        {
-          "t": "2026-10-11 13:19:14",
-          "ok": true,
-          "code": 200,
-          "ms": 1663
-        },
         {
           "t": "2026-10-11 13:19:49",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 493
+        },
+        {
+          "t": "2026-10-11 13:40:48",
+          "ok": true,
+          "code": 200,
+          "ms": 454
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 533,
+      "latency_ms": 474,
       "error": null,
-      "checked_at": "2026-10-11 13:39:34",
+      "checked_at": "2026-10-11 13:40:48",
       "history": [
-        {
-          "t": "2026-10-11 13:19:14",
-          "ok": true,
-          "code": 200,
-          "ms": 529
-        },
         {
           "t": "2026-10-11 13:19:49",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 533
+        },
+        {
+          "t": "2026-10-11 13:40:48",
+          "ok": true,
+          "code": 200,
+          "ms": 474
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 793,
+      "latency_ms": 479,
       "error": null,
-      "checked_at": "2026-10-11 13:39:34",
+      "checked_at": "2026-10-11 13:40:48",
       "history": [
-        {
-          "t": "2026-10-11 13:19:14",
-          "ok": true,
-          "code": 200,
-          "ms": 483
-        },
         {
           "t": "2026-10-11 13:19:50",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 793
+        },
+        {
+          "t": "2026-10-11 13:40:48",
+          "ok": true,
+          "code": 200,
+          "ms": 479
         }
       ]
     },
@@ -598,21 +598,15 @@
       "name": "沐晴转换器手机监控页",
       "group": "隧道服务",
       "kind": "tunnel",
-      "url": null,
+      "url": "https://licenses-corrections-ever-antonio.trycloudflare.com",
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/addr.json",
       "remark": "本机直连 *.trycloudflare.com 会在 TLS 握手阶段被重置（需走系统代理 127.0.0.1:7890）；探测失败不等于服务下线，请以服务端实际运行为准。",
       "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": "探测器内部错误: ",
-      "checked_at": "2026-10-11 13:39:59",
+      "error": "连接失败：[WinError 10054] 远程主机强迫关闭了一个现有的连接。",
+      "checked_at": "2026-10-11 13:40:56",
       "history": [
-        {
-          "t": "2026-10-11 13:19:15",
-          "ok": true,
-          "code": 404,
-          "ms": 2137
-        },
         {
           "t": "2026-10-11 13:19:50",
           "ok": true,
@@ -783,6 +777,12 @@
         },
         {
           "t": "2026-10-11 13:39:59",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-11 13:40:56",
           "ok": false,
           "code": null,
           "ms": null
@@ -2350,5 +2350,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-11 13:40:13"
+  "embedded_at": "2026-10-11 13:41:04"
 }
