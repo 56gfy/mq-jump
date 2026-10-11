@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-11 20:15:04",
+  "generated_at": "2026-10-11 20:15:30",
   "interval": 30,
   "summary": {
     "total": 12,
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 426,
+      "latency_ms": 1690,
       "error": null,
-      "checked_at": "2026-10-11 20:14:32",
+      "checked_at": "2026-10-11 20:15:05",
       "history": [
-        {
-          "t": "2026-10-11 19:58:05",
-          "ok": true,
-          "code": 200,
-          "ms": 979
-        },
         {
           "t": "2026-10-11 19:58:49",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 426
+        },
+        {
+          "t": "2026-10-11 20:15:05",
+          "ok": true,
+          "code": 200,
+          "ms": 1690
         }
       ]
     },
@@ -603,16 +603,10 @@
       "remark": "本机直连 *.trycloudflare.com 会在 TLS 握手阶段被重置（需走系统代理 127.0.0.1:7890）；探测失败不等于服务下线，请以服务端实际运行为准。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 1032,
+      "latency_ms": 1301,
       "error": null,
-      "checked_at": "2026-10-11 20:14:33",
+      "checked_at": "2026-10-11 20:15:05",
       "history": [
-        {
-          "t": "2026-10-11 19:58:18",
-          "ok": true,
-          "code": 404,
-          "ms": 1035
-        },
         {
           "t": "2026-10-11 19:59:01",
           "ok": true,
@@ -786,6 +780,12 @@
           "ok": true,
           "code": 404,
           "ms": 1032
+        },
+        {
+          "t": "2026-10-11 20:15:05",
+          "ok": true,
+          "code": 404,
+          "ms": 1301
         }
       ]
     },
@@ -800,14 +800,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10054] 远程主机强迫关闭了一个现有的连接。",
-      "checked_at": "2026-10-11 20:14:33",
+      "checked_at": "2026-10-11 20:15:05",
       "history": [
-        {
-          "t": "2026-10-11 19:58:18",
-          "ok": false,
-          "code": 502,
-          "ms": 2187
-        },
         {
           "t": "2026-10-11 19:59:01",
           "ok": false,
@@ -981,6 +975,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-11 20:15:05",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -995,14 +995,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[Errno 11001] getaddrinfo failed",
-      "checked_at": "2026-10-11 20:14:33",
+      "checked_at": "2026-10-11 20:15:05",
       "history": [
-        {
-          "t": "2026-10-11 19:58:18",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-11 19:59:01",
           "ok": false,
@@ -1176,6 +1170,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-11 20:15:05",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -1190,14 +1190,8 @@
       "status_code": 200,
       "latency_ms": 1,
       "error": null,
-      "checked_at": "2026-10-11 20:14:33",
+      "checked_at": "2026-10-11 20:15:05",
       "history": [
-        {
-          "t": "2026-10-11 19:58:18",
-          "ok": true,
-          "code": 200,
-          "ms": 1
-        },
         {
           "t": "2026-10-11 19:59:01",
           "ok": true,
@@ -1371,6 +1365,12 @@
           "ok": true,
           "code": 200,
           "ms": 1
+        },
+        {
+          "t": "2026-10-11 20:15:05",
+          "ok": true,
+          "code": 200,
+          "ms": 1
         }
       ]
     },
@@ -1383,16 +1383,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 2,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-11 20:14:33",
+      "checked_at": "2026-10-11 20:15:05",
       "history": [
-        {
-          "t": "2026-10-11 19:58:18",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-11 19:59:01",
           "ok": false,
@@ -1566,6 +1560,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-10-11 20:15:05",
+          "ok": true,
+          "code": 200,
+          "ms": 3
         }
       ]
     },
@@ -1578,16 +1578,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 2,
+      "latency_ms": 4,
       "error": null,
-      "checked_at": "2026-10-11 20:14:33",
+      "checked_at": "2026-10-11 20:15:05",
       "history": [
-        {
-          "t": "2026-10-11 19:58:18",
-          "ok": true,
-          "code": 200,
-          "ms": 3
-        },
         {
           "t": "2026-10-11 19:59:01",
           "ok": true,
@@ -1761,6 +1755,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-10-11 20:15:05",
+          "ok": true,
+          "code": 200,
+          "ms": 4
         }
       ]
     },
@@ -1773,16 +1773,10 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 6,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-11 20:14:33",
+      "checked_at": "2026-10-11 20:15:05",
       "history": [
-        {
-          "t": "2026-10-11 19:58:18",
-          "ok": true,
-          "code": 404,
-          "ms": 4
-        },
         {
           "t": "2026-10-11 19:59:01",
           "ok": true,
@@ -1956,6 +1950,12 @@
           "ok": true,
           "code": 404,
           "ms": 6
+        },
+        {
+          "t": "2026-10-11 20:15:05",
+          "ok": true,
+          "code": 404,
+          "ms": 3
         }
       ]
     },
@@ -1970,14 +1970,8 @@
       "status_code": 404,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-11 20:14:33",
+      "checked_at": "2026-10-11 20:15:05",
       "history": [
-        {
-          "t": "2026-10-11 19:58:18",
-          "ok": true,
-          "code": 404,
-          "ms": 26
-        },
         {
           "t": "2026-10-11 19:59:01",
           "ok": true,
@@ -2151,6 +2145,12 @@
           "ok": true,
           "code": 404,
           "ms": 2
+        },
+        {
+          "t": "2026-10-11 20:15:05",
+          "ok": true,
+          "code": 404,
+          "ms": 2
         }
       ]
     },
@@ -2165,14 +2165,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-10-11 20:14:33",
+      "checked_at": "2026-10-11 20:15:05",
       "history": [
-        {
-          "t": "2026-10-11 19:58:18",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-11 19:59:01",
           "ok": false,
@@ -2346,9 +2340,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-11 20:15:05",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-10-11 20:15:04"
+  "embedded_at": "2026-10-11 20:15:30"
 }
