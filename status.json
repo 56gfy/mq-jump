@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-11 21:02:54",
+  "generated_at": "2026-10-11 21:03:03",
   "interval": 30,
   "summary": {
     "total": 12,
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 575,
+      "latency_ms": 540,
       "error": null,
-      "checked_at": "2026-10-11 21:02:28",
+      "checked_at": "2026-10-11 21:03:00",
       "history": [
-        {
-          "t": "2026-10-11 20:45:41",
-          "ok": true,
-          "code": 200,
-          "ms": 396
-        },
         {
           "t": "2026-10-11 20:46:17",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 575
+        },
+        {
+          "t": "2026-10-11 21:03:00",
+          "ok": true,
+          "code": 200,
+          "ms": 540
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 561,
+      "latency_ms": 895,
       "error": null,
-      "checked_at": "2026-10-11 21:02:28",
+      "checked_at": "2026-10-11 21:03:00",
       "history": [
-        {
-          "t": "2026-10-11 20:45:41",
-          "ok": true,
-          "code": 200,
-          "ms": 307
-        },
         {
           "t": "2026-10-11 20:46:19",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 561
+        },
+        {
+          "t": "2026-10-11 21:03:00",
+          "ok": true,
+          "code": 200,
+          "ms": 895
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 477,
+      "latency_ms": 480,
       "error": null,
-      "checked_at": "2026-10-11 21:02:28",
+      "checked_at": "2026-10-11 21:03:00",
       "history": [
-        {
-          "t": "2026-10-11 20:45:41",
-          "ok": true,
-          "code": 200,
-          "ms": 228
-        },
         {
           "t": "2026-10-11 20:46:19",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 477
+        },
+        {
+          "t": "2026-10-11 21:03:00",
+          "ok": true,
+          "code": 200,
+          "ms": 480
         }
       ]
     },
@@ -605,14 +605,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10054] 远程主机强迫关闭了一个现有的连接。",
-      "checked_at": "2026-10-11 21:02:28",
+      "checked_at": "2026-10-11 21:03:00",
       "history": [
-        {
-          "t": "2026-10-11 20:45:45",
-          "ok": true,
-          "code": 404,
-          "ms": 1599
-        },
         {
           "t": "2026-10-11 20:46:19",
           "ok": false,
@@ -786,6 +780,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-11 21:03:00",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -800,14 +800,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10054] 远程主机强迫关闭了一个现有的连接。",
-      "checked_at": "2026-10-11 21:02:29",
+      "checked_at": "2026-10-11 21:03:00",
       "history": [
-        {
-          "t": "2026-10-11 20:45:45",
-          "ok": true,
-          "code": 200,
-          "ms": 1090
-        },
         {
           "t": "2026-10-11 20:46:19",
           "ok": false,
@@ -978,6 +972,12 @@
         },
         {
           "t": "2026-10-11 21:02:29",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-11 21:03:00",
           "ok": false,
           "code": null,
           "ms": null
@@ -2350,5 +2350,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-11 21:02:54"
+  "embedded_at": "2026-10-11 21:03:03"
 }
