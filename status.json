@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-13 12:14:31",
+  "generated_at": "2026-10-13 12:15:03",
   "interval": 30,
   "summary": {
     "total": 12,
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 286,
+      "latency_ms": 320,
       "error": null,
-      "checked_at": "2026-10-13 12:14:02",
+      "checked_at": "2026-10-13 12:14:51",
       "history": [
-        {
-          "t": "2026-10-13 11:47:58",
-          "ok": true,
-          "code": 200,
-          "ms": 436
-        },
         {
           "t": "2026-10-13 11:48:44",
           "ok": false,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 286
+        },
+        {
+          "t": "2026-10-13 12:14:51",
+          "ok": true,
+          "code": 200,
+          "ms": 320
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 266,
+      "latency_ms": 609,
       "error": null,
-      "checked_at": "2026-10-13 12:14:02",
+      "checked_at": "2026-10-13 12:14:52",
       "history": [
-        {
-          "t": "2026-10-13 11:47:58",
-          "ok": true,
-          "code": 200,
-          "ms": 448
-        },
         {
           "t": "2026-10-13 11:48:44",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 266
+        },
+        {
+          "t": "2026-10-13 12:14:52",
+          "ok": true,
+          "code": 200,
+          "ms": 609
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 246,
+      "latency_ms": 784,
       "error": null,
-      "checked_at": "2026-10-13 12:14:02",
+      "checked_at": "2026-10-13 12:14:52",
       "history": [
-        {
-          "t": "2026-10-13 11:47:58",
-          "ok": true,
-          "code": 200,
-          "ms": 447
-        },
         {
           "t": "2026-10-13 11:48:44",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 246
+        },
+        {
+          "t": "2026-10-13 12:14:52",
+          "ok": true,
+          "code": 200,
+          "ms": 784
         }
       ]
     },
@@ -2350,5 +2350,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-13 12:14:31"
+  "embedded_at": "2026-10-13 12:15:03"
 }
