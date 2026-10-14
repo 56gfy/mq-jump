@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-14 23:50:41",
+  "generated_at": "2026-10-14 23:51:06",
   "interval": 30,
   "summary": {
     "total": 12,
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1306,
+      "latency_ms": 276,
       "error": null,
-      "checked_at": "2026-10-14 23:50:25",
+      "checked_at": "2026-10-14 23:50:56",
       "history": [
-        {
-          "t": "2026-10-14 23:31:40",
-          "ok": true,
-          "code": 200,
-          "ms": 1525
-        },
         {
           "t": "2026-10-14 23:32:17",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 1306
+        },
+        {
+          "t": "2026-10-14 23:50:56",
+          "ok": true,
+          "code": 200,
+          "ms": 276
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 326,
+      "latency_ms": 809,
       "error": null,
-      "checked_at": "2026-10-14 23:50:25",
+      "checked_at": "2026-10-14 23:50:57",
       "history": [
-        {
-          "t": "2026-10-14 23:31:40",
-          "ok": true,
-          "code": 200,
-          "ms": 713
-        },
         {
           "t": "2026-10-14 23:32:17",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 326
+        },
+        {
+          "t": "2026-10-14 23:50:57",
+          "ok": true,
+          "code": 200,
+          "ms": 809
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 231,
+      "latency_ms": 1803,
       "error": null,
-      "checked_at": "2026-10-14 23:50:25",
+      "checked_at": "2026-10-14 23:50:58",
       "history": [
-        {
-          "t": "2026-10-14 23:31:40",
-          "ok": true,
-          "code": 200,
-          "ms": 802
-        },
         {
           "t": "2026-10-14 23:32:17",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 231
+        },
+        {
+          "t": "2026-10-14 23:50:58",
+          "ok": true,
+          "code": 200,
+          "ms": 1803
         }
       ]
     },
@@ -605,14 +605,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[Errno 11001] getaddrinfo failed",
-      "checked_at": "2026-10-14 23:50:25",
+      "checked_at": "2026-10-14 23:50:58",
       "history": [
-        {
-          "t": "2026-10-14 23:31:40",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-14 23:32:21",
           "ok": false,
@@ -783,6 +777,12 @@
         },
         {
           "t": "2026-10-14 23:50:25",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-14 23:50:58",
           "ok": false,
           "code": null,
           "ms": null
@@ -2350,5 +2350,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-14 23:50:41"
+  "embedded_at": "2026-10-14 23:51:06"
 }
