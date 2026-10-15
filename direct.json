@@ -1,6 +1,5 @@
 {
   "model": [
-    "https://giant-kangaroo-48.loca.lt",
     "https://6642e22f5634c712-113-16-115-252.serveousercontent.com",
     "https://evans-rescue-kentucky-wireless.trycloudflare.com",
     "http://192.168.31.212:8890"
@@ -10,6 +9,6 @@
     "https://21dfd7be7392fe61-113-16-115-252.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-15 11:49:02",
-  "ts": 1792036142972
+  "updated": "2026-10-15 11:50:04",
+  "ts": 1792036204159
 }
