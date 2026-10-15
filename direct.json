@@ -1,15 +1,15 @@
 {
   "model": [
     "https://mq-model-56gfy-2026.loca.lt",
-    "https://a98284cdf6272146-113-16-115-252.serveousercontent.com",
+    "https://79e3d98cc804bcc0-113-16-115-252.serveousercontent.com",
     "https://evans-rescue-kentucky-wireless.trycloudflare.com",
     "http://192.168.31.212:8890"
   ],
   "conv": [
     "https://loud-cobra-25.loca.lt",
-    "https://d282904c7e4741c7-113-16-115-252.serveousercontent.com",
+    "https://b84ac637647319d7-113-16-115-252.serveousercontent.com",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-15 14:09:42",
-  "ts": 1792044582472
+  "updated": "2026-10-15 14:21:53",
+  "ts": 1792045313253
 }
