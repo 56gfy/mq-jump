@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-15 22:32:23",
+  "generated_at": "2026-10-15 22:32:31",
   "interval": 30,
   "summary": {
     "total": 12,
@@ -798,16 +798,10 @@
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
       "ok": false,
       "status_code": 503,
-      "latency_ms": 8085,
+      "latency_ms": 8152,
       "error": "HTTP 503",
-      "checked_at": "2026-10-15 22:31:40",
+      "checked_at": "2026-10-15 22:32:29",
       "history": [
-        {
-          "t": "2026-10-15 22:08:30",
-          "ok": true,
-          "code": 200,
-          "ms": 5537
-        },
         {
           "t": "2026-10-15 22:09:09",
           "ok": true,
@@ -981,6 +975,12 @@
           "ok": false,
           "code": 503,
           "ms": 8085
+        },
+        {
+          "t": "2026-10-15 22:32:29",
+          "ok": false,
+          "code": 503,
+          "ms": 8152
         }
       ]
     },
@@ -993,16 +993,10 @@
       "remark": "本机直连 *.trycloudflare.com 会在 TLS 握手阶段被重置（需走系统代理 127.0.0.1:7890）；探测失败不等于服务下线，请以服务端实际运行为准。",
       "ok": false,
       "status_code": 530,
-      "latency_ms": 465,
+      "latency_ms": 1277,
       "error": "HTTP 530",
-      "checked_at": "2026-10-15 22:31:40",
+      "checked_at": "2026-10-15 22:32:29",
       "history": [
-        {
-          "t": "2026-10-15 22:08:30",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-15 22:09:09",
           "ok": false,
@@ -1176,6 +1170,12 @@
           "ok": false,
           "code": 530,
           "ms": 465
+        },
+        {
+          "t": "2026-10-15 22:32:29",
+          "ok": false,
+          "code": 530,
+          "ms": 1277
         }
       ]
     },
@@ -1188,16 +1188,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 164,
+      "latency_ms": 11,
       "error": null,
-      "checked_at": "2026-10-15 22:31:40",
+      "checked_at": "2026-10-15 22:32:29",
       "history": [
-        {
-          "t": "2026-10-15 22:08:30",
-          "ok": true,
-          "code": 200,
-          "ms": 5
-        },
         {
           "t": "2026-10-15 22:09:09",
           "ok": true,
@@ -1371,6 +1365,12 @@
           "ok": true,
           "code": 200,
           "ms": 164
+        },
+        {
+          "t": "2026-10-15 22:32:29",
+          "ok": true,
+          "code": 200,
+          "ms": 11
         }
       ]
     },
@@ -1383,16 +1383,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 362,
+      "latency_ms": 803,
       "error": null,
-      "checked_at": "2026-10-15 22:31:40",
+      "checked_at": "2026-10-15 22:32:29",
       "history": [
-        {
-          "t": "2026-10-15 22:08:30",
-          "ok": true,
-          "code": 200,
-          "ms": 6
-        },
         {
           "t": "2026-10-15 22:09:09",
           "ok": true,
@@ -1566,6 +1560,12 @@
           "ok": true,
           "code": 200,
           "ms": 362
+        },
+        {
+          "t": "2026-10-15 22:32:29",
+          "ok": true,
+          "code": 200,
+          "ms": 803
         }
       ]
     },
@@ -1578,16 +1578,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 12,
+      "latency_ms": 8,
       "error": null,
-      "checked_at": "2026-10-15 22:31:40",
+      "checked_at": "2026-10-15 22:32:29",
       "history": [
-        {
-          "t": "2026-10-15 22:08:30",
-          "ok": true,
-          "code": 200,
-          "ms": 5
-        },
         {
           "t": "2026-10-15 22:09:09",
           "ok": true,
@@ -1761,6 +1755,12 @@
           "ok": true,
           "code": 200,
           "ms": 12
+        },
+        {
+          "t": "2026-10-15 22:32:29",
+          "ok": true,
+          "code": 200,
+          "ms": 8
         }
       ]
     },
@@ -1773,16 +1773,10 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 3,
+      "latency_ms": 7,
       "error": null,
-      "checked_at": "2026-10-15 22:31:40",
+      "checked_at": "2026-10-15 22:32:29",
       "history": [
-        {
-          "t": "2026-10-15 22:08:30",
-          "ok": true,
-          "code": 404,
-          "ms": 5
-        },
         {
           "t": "2026-10-15 22:09:09",
           "ok": true,
@@ -1956,6 +1950,12 @@
           "ok": true,
           "code": 404,
           "ms": 3
+        },
+        {
+          "t": "2026-10-15 22:32:29",
+          "ok": true,
+          "code": 404,
+          "ms": 7
         }
       ]
     },
@@ -1968,16 +1968,10 @@
       "remark": "MuQingConverterCore（uvicorn），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 1195,
+      "latency_ms": 191,
       "error": null,
-      "checked_at": "2026-10-15 22:31:40",
+      "checked_at": "2026-10-15 22:32:29",
       "history": [
-        {
-          "t": "2026-10-15 22:08:30",
-          "ok": true,
-          "code": 404,
-          "ms": 6
-        },
         {
           "t": "2026-10-15 22:09:09",
           "ok": true,
@@ -2151,6 +2145,12 @@
           "ok": true,
           "code": 404,
           "ms": 1195
+        },
+        {
+          "t": "2026-10-15 22:32:29",
+          "ok": true,
+          "code": 404,
+          "ms": 191
         }
       ]
     },
@@ -2163,16 +2163,10 @@
       "remark": "channels-bridge，根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 2630,
+      "latency_ms": 515,
       "error": null,
-      "checked_at": "2026-10-15 22:31:40",
+      "checked_at": "2026-10-15 22:32:29",
       "history": [
-        {
-          "t": "2026-10-15 22:08:30",
-          "ok": true,
-          "code": 404,
-          "ms": 5
-        },
         {
           "t": "2026-10-15 22:09:09",
           "ok": true,
@@ -2346,9 +2340,15 @@
           "ok": true,
           "code": 404,
           "ms": 2630
+        },
+        {
+          "t": "2026-10-15 22:32:29",
+          "ok": true,
+          "code": 404,
+          "ms": 515
         }
       ]
     }
   ],
-  "embedded_at": "2026-10-15 22:32:23"
+  "embedded_at": "2026-10-15 22:32:31"
 }
