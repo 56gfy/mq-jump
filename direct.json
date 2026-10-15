@@ -1,6 +1,5 @@
 {
   "model": [
-    "https://mq-model-56gfy-2026.loca.lt",
     "https://becdd58c0e1283ee-113-16-115-252.serveousercontent.com",
     "https://evans-rescue-kentucky-wireless.trycloudflare.com",
     "http://100.102.35.125:8890",
@@ -12,6 +11,6 @@
     "http://100.102.35.125:8787",
     "http://192.168.31.212:8787"
   ],
-  "updated": "2026-10-15 10:55:14",
-  "ts": 1792032914688
+  "updated": "2026-10-15 10:55:38",
+  "ts": 1792032938613
 }
