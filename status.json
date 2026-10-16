@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-16 10:15:09",
+  "generated_at": "2026-10-16 10:16:16",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 10,
-    "bad": 1,
+    "ok": 8,
+    "bad": 3,
     "unknown": 0
   },
   "targets": [
@@ -151,11 +151,11 @@
       "url": "https://mq-model-56gfy-2026.loca.lt",
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json",
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
-      "ok": true,
-      "status_code": 200,
-      "latency_ms": 7647,
-      "error": null,
-      "checked_at": "2026-10-16 10:10:04",
+      "ok": false,
+      "status_code": null,
+      "latency_ms": null,
+      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
+      "checked_at": "2026-10-16 10:15:13",
       "history": [
         {
           "t": "2026-10-16 09:54:40",
@@ -180,6 +180,12 @@
           "ok": true,
           "code": 200,
           "ms": 7647
+        },
+        {
+          "t": "2026-10-16 10:15:13",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -194,7 +200,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
-      "checked_at": "2026-10-16 10:10:04",
+      "checked_at": "2026-10-16 10:15:13",
       "history": [
         {
           "t": "2026-10-16 09:54:40",
@@ -216,6 +222,12 @@
         },
         {
           "t": "2026-10-16 10:10:04",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-16 10:15:13",
           "ok": false,
           "code": null,
           "ms": null
@@ -233,7 +245,7 @@
       "status_code": 200,
       "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-16 10:10:04",
+      "checked_at": "2026-10-16 10:15:13",
       "history": [
         {
           "t": "2026-10-16 09:54:40",
@@ -255,6 +267,12 @@
         },
         {
           "t": "2026-10-16 10:10:04",
+          "ok": true,
+          "code": 200,
+          "ms": 3
+        },
+        {
+          "t": "2026-10-16 10:15:13",
           "ok": true,
           "code": 200,
           "ms": 3
@@ -270,9 +288,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 5,
+      "latency_ms": 102,
       "error": null,
-      "checked_at": "2026-10-16 10:10:04",
+      "checked_at": "2026-10-16 10:15:13",
       "history": [
         {
           "t": "2026-10-16 09:54:40",
@@ -297,6 +315,12 @@
           "ok": true,
           "code": 200,
           "ms": 5
+        },
+        {
+          "t": "2026-10-16 10:15:13",
+          "ok": true,
+          "code": 200,
+          "ms": 102
         }
       ]
     },
@@ -309,9 +333,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 5,
+      "latency_ms": 52,
       "error": null,
-      "checked_at": "2026-10-16 10:10:04",
+      "checked_at": "2026-10-16 10:15:13",
       "history": [
         {
           "t": "2026-10-16 09:54:40",
@@ -336,6 +360,12 @@
           "ok": true,
           "code": 200,
           "ms": 5
+        },
+        {
+          "t": "2026-10-16 10:15:13",
+          "ok": true,
+          "code": 200,
+          "ms": 52
         }
       ]
     },
@@ -346,11 +376,11 @@
       "url": "http://127.0.0.1:8644/",
       "addr_source": null,
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
-      "ok": true,
-      "status_code": 404,
-      "latency_ms": 3,
-      "error": null,
-      "checked_at": "2026-10-16 10:10:04",
+      "ok": false,
+      "status_code": null,
+      "latency_ms": null,
+      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "checked_at": "2026-10-16 10:15:13",
       "history": [
         {
           "t": "2026-10-16 09:54:40",
@@ -375,6 +405,12 @@
           "ok": true,
           "code": 404,
           "ms": 3
+        },
+        {
+          "t": "2026-10-16 10:15:13",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -387,9 +423,9 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 4,
+      "latency_ms": 6,
       "error": null,
-      "checked_at": "2026-10-16 10:10:04",
+      "checked_at": "2026-10-16 10:15:13",
       "history": [
         {
           "t": "2026-10-16 09:54:40",
@@ -414,6 +450,12 @@
           "ok": true,
           "code": 200,
           "ms": 4
+        },
+        {
+          "t": "2026-10-16 10:15:13",
+          "ok": true,
+          "code": 200,
+          "ms": 6
         }
       ]
     },
@@ -426,9 +468,9 @@
       "remark": "channels-bridge，根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 3,
+      "latency_ms": 23,
       "error": null,
-      "checked_at": "2026-10-16 10:10:04",
+      "checked_at": "2026-10-16 10:15:13",
       "history": [
         {
           "t": "2026-10-16 09:54:40",
@@ -453,9 +495,15 @@
           "ok": true,
           "code": 404,
           "ms": 3
+        },
+        {
+          "t": "2026-10-16 10:15:13",
+          "ok": true,
+          "code": 404,
+          "ms": 23
         }
       ]
     }
   ],
-  "embedded_at": "2026-10-16 10:15:09"
+  "embedded_at": "2026-10-16 10:16:16"
 }
