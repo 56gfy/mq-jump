@@ -1,12 +1,12 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-16 08:39:05",
+  "generated_at": "2026-10-16 08:41:04",
   "interval": 300,
   "summary": {
     "total": 12,
-    "ok": 4,
-    "bad": 0,
-    "unknown": 8
+    "ok": 10,
+    "bad": 2,
+    "unknown": 0
   },
   "targets": [
     {
@@ -18,15 +18,15 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 653,
+      "latency_ms": 427,
       "error": null,
-      "checked_at": "2026-10-16 08:39:02",
+      "checked_at": "2026-10-16 08:40:47",
       "history": [
         {
-          "t": "2026-10-16 08:39:02",
+          "t": "2026-10-16 08:40:47",
           "ok": true,
           "code": 200,
-          "ms": 653
+          "ms": 427
         }
       ]
     },
@@ -39,15 +39,15 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 415,
+      "latency_ms": 494,
       "error": null,
-      "checked_at": "2026-10-16 08:39:02",
+      "checked_at": "2026-10-16 08:40:47",
       "history": [
         {
-          "t": "2026-10-16 08:39:02",
+          "t": "2026-10-16 08:40:47",
           "ok": true,
           "code": 200,
-          "ms": 415
+          "ms": 494
         }
       ]
     },
@@ -60,15 +60,15 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 424,
+      "latency_ms": 437,
       "error": null,
-      "checked_at": "2026-10-16 08:39:02",
+      "checked_at": "2026-10-16 08:40:47",
       "history": [
         {
-          "t": "2026-10-16 08:39:02",
+          "t": "2026-10-16 08:40:47",
           "ok": true,
           "code": 200,
-          "ms": 424
+          "ms": 437
         }
       ]
     },
@@ -81,15 +81,15 @@
       "remark": "本机直连 *.trycloudflare.com 会在 TLS 握手阶段被重置（需走系统代理 127.0.0.1:7890）；探测失败不等于服务下线，请以服务端实际运行为准。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 481,
+      "latency_ms": 428,
       "error": null,
-      "checked_at": "2026-10-16 08:39:02",
+      "checked_at": "2026-10-16 08:40:48",
       "history": [
         {
-          "t": "2026-10-16 08:39:02",
+          "t": "2026-10-16 08:40:48",
           "ok": true,
           "code": 200,
-          "ms": 481
+          "ms": 428
         }
       ]
     },
@@ -97,29 +97,43 @@
       "name": "模型切换服务",
       "group": "隧道服务",
       "kind": "tunnel",
-      "url": null,
+      "url": "https://mq-model-56gfy-2026.loca.lt",
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json",
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
+      "checked_at": "2026-10-16 08:40:55",
+      "history": [
+        {
+          "t": "2026-10-16 08:40:55",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     },
     {
       "name": "HermesMobile",
       "group": "隧道服务",
       "kind": "tunnel",
-      "url": null,
+      "url": "https://paths-raw-highlighted-amendments.trycloudflare.com",
       "addr_source": "C:/Users/Administrator/Desktop/02_开发项目/HermesMobile/logs/current_url.txt",
       "remark": "本机直连 *.trycloudflare.com 会在 TLS 握手阶段被重置（需走系统代理 127.0.0.1:7890）；探测失败不等于服务下线，请以服务端实际运行为准。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
+      "checked_at": "2026-10-16 08:40:55",
+      "history": [
+        {
+          "t": "2026-10-16 08:40:55",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     },
     {
       "name": "AI 用量监控",
@@ -128,12 +142,19 @@
       "url": "http://127.0.0.1:8080/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-16 08:40:55",
+      "history": [
+        {
+          "t": "2026-10-16 08:40:55",
+          "ok": true,
+          "code": 200,
+          "ms": 3
+        }
+      ]
     },
     {
       "name": "模型切换服务（本地）",
@@ -142,12 +163,19 @@
       "url": "http://127.0.0.1:8890/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 7,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-16 08:40:55",
+      "history": [
+        {
+          "t": "2026-10-16 08:40:55",
+          "ok": true,
+          "code": 200,
+          "ms": 7
+        }
+      ]
     },
     {
       "name": "Ekko Studio",
@@ -156,12 +184,19 @@
       "url": "http://127.0.0.1:8748/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 21,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-16 08:40:55",
+      "history": [
+        {
+          "t": "2026-10-16 08:40:55",
+          "ok": true,
+          "code": 200,
+          "ms": 21
+        }
+      ]
     },
     {
       "name": "Hermes 网关",
@@ -170,12 +205,19 @@
       "url": "http://127.0.0.1:8644/",
       "addr_source": null,
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 404,
+      "latency_ms": 19,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-16 08:40:55",
+      "history": [
+        {
+          "t": "2026-10-16 08:40:55",
+          "ok": true,
+          "code": 404,
+          "ms": 19
+        }
+      ]
     },
     {
       "name": "沐晴转换器核心",
@@ -184,12 +226,19 @@
       "url": "http://127.0.0.1:8787/",
       "addr_source": null,
       "remark": "MuQingConverterCore（uvicorn），根路径无页面属正常，404 即代表进程在线。",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 404,
+      "latency_ms": 4,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-16 08:40:55",
+      "history": [
+        {
+          "t": "2026-10-16 08:40:55",
+          "ok": true,
+          "code": 404,
+          "ms": 4
+        }
+      ]
     },
     {
       "name": "Hermes 通道桥接",
@@ -198,13 +247,20 @@
       "url": "http://127.0.0.1:8891/",
       "addr_source": null,
       "remark": "channels-bridge，根路径无页面属正常，404 即代表进程在线。",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 404,
+      "latency_ms": 4,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-16 08:40:55",
+      "history": [
+        {
+          "t": "2026-10-16 08:40:55",
+          "ok": true,
+          "code": 404,
+          "ms": 4
+        }
+      ]
     }
   ],
-  "embedded_at": "2026-10-16 08:39:05"
+  "embedded_at": "2026-10-16 08:41:04"
 }
