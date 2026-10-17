@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-17 09:19:03",
+  "generated_at": "2026-10-17 09:21:04",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -1970,14 +1970,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-10-17 09:14:01",
+      "checked_at": "2026-10-17 09:19:03",
       "history": [
-        {
-          "t": "2026-10-17 06:48:38",
-          "ok": true,
-          "code": 404,
-          "ms": 2
-        },
         {
           "t": "2026-10-17 06:53:39",
           "ok": true,
@@ -2151,9 +2145,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-17 09:19:03",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-10-17 09:19:03"
+  "embedded_at": "2026-10-17 09:21:04"
 }
