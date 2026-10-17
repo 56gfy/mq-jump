@@ -1,12 +1,12 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-18 00:24:38",
+  "generated_at": "2026-10-18 00:25:04",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 2,
-    "bad": 0,
-    "unknown": 9
+    "ok": 4,
+    "bad": 7,
+    "unknown": 0
   },
   "targets": [
     {
@@ -58,12 +58,19 @@
       "url": "https://56gfy.github.io/mq-jump/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
+      "checked_at": "2026-10-18 00:24:41",
+      "history": [
+        {
+          "t": "2026-10-18 00:24:41",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     },
     {
       "name": "模型切换服务",
@@ -72,26 +79,40 @@
       "url": null,
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json",
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json）：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
+      "checked_at": "2026-10-18 00:24:41",
+      "history": [
+        {
+          "t": "2026-10-18 00:24:41",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     },
     {
       "name": "HermesMobile",
       "group": "隧道服务",
       "kind": "tunnel",
-      "url": null,
+      "url": "https://paths-raw-highlighted-amendments.trycloudflare.com",
       "addr_source": "C:/Users/Administrator/Desktop/02_开发项目/HermesMobile/logs/current_url.txt",
       "remark": "本机直连 *.trycloudflare.com 会在 TLS 握手阶段被重置（需走系统代理 127.0.0.1:7890）；探测失败不等于服务下线，请以服务端实际运行为准。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "checked_at": "2026-10-18 00:24:41",
+      "history": [
+        {
+          "t": "2026-10-18 00:24:41",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     },
     {
       "name": "AI 用量监控",
@@ -100,12 +121,19 @@
       "url": "http://127.0.0.1:8080/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 14,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-18 00:24:41",
+      "history": [
+        {
+          "t": "2026-10-18 00:24:41",
+          "ok": true,
+          "code": 200,
+          "ms": 14
+        }
+      ]
     },
     {
       "name": "模型切换服务（本地）",
@@ -114,12 +142,19 @@
       "url": "http://127.0.0.1:8890/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
-      "status_code": null,
-      "latency_ms": null,
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 137,
       "error": null,
-      "checked_at": null,
-      "history": []
+      "checked_at": "2026-10-18 00:24:41",
+      "history": [
+        {
+          "t": "2026-10-18 00:24:41",
+          "ok": true,
+          "code": 200,
+          "ms": 137
+        }
+      ]
     },
     {
       "name": "Ekko Studio",
@@ -128,12 +163,19 @@
       "url": "http://127.0.0.1:8748/",
       "addr_source": null,
       "remark": "",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "checked_at": "2026-10-18 00:24:41",
+      "history": [
+        {
+          "t": "2026-10-18 00:24:41",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     },
     {
       "name": "Hermes 网关",
@@ -142,26 +184,40 @@
       "url": "http://127.0.0.1:8644/",
       "addr_source": null,
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "checked_at": "2026-10-18 00:24:41",
+      "history": [
+        {
+          "t": "2026-10-18 00:24:41",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     },
     {
       "name": "沐晴转换器核心",
       "group": "本机端口",
       "kind": "static",
-      "url": "http://127.0.0.1:8787/",
+      "url": "http://127.0.0.1:8787/health",
       "addr_source": null,
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "checked_at": "2026-10-18 00:24:41",
+      "history": [
+        {
+          "t": "2026-10-18 00:24:41",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     },
     {
       "name": "Hermes 通道桥接",
@@ -170,13 +226,20 @@
       "url": "http://127.0.0.1:8891/",
       "addr_source": null,
       "remark": "channels-bridge，根路径无页面属正常，404 即代表进程在线。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "checked_at": "2026-10-18 00:24:41",
+      "history": [
+        {
+          "t": "2026-10-18 00:24:41",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     }
   ],
-  "embedded_at": "2026-10-18 00:24:38"
+  "embedded_at": "2026-10-18 00:25:04"
 }
