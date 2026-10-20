@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-20 10:15:03",
+  "generated_at": "2026-10-20 10:17:04",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 6,
-    "bad": 5,
+    "ok": 7,
+    "bad": 4,
     "unknown": 0
   },
   "targets": [
@@ -16,18 +16,12 @@
       "url": "https://56gfy.github.io/ai-daily/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
-      "checked_at": "2026-10-20 10:11:36",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 483,
+      "error": null,
+      "checked_at": "2026-10-20 10:16:53",
       "history": [
-        {
-          "t": "2026-10-20 07:40:06",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-20 07:45:18",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-20 10:16:53",
+          "ok": true,
+          "code": 200,
+          "ms": 483
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 424,
+      "latency_ms": 704,
       "error": null,
-      "checked_at": "2026-10-20 10:11:36",
+      "checked_at": "2026-10-20 10:16:53",
       "history": [
-        {
-          "t": "2026-10-20 07:40:06",
-          "ok": true,
-          "code": 200,
-          "ms": 443
-        },
         {
           "t": "2026-10-20 07:45:18",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 424
+        },
+        {
+          "t": "2026-10-20 10:16:53",
+          "ok": true,
+          "code": 200,
+          "ms": 704
         }
       ]
     },
@@ -2155,5 +2155,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-20 10:15:03"
+  "embedded_at": "2026-10-20 10:17:04"
 }
