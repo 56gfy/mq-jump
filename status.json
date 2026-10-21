@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-22 05:15:03",
+  "generated_at": "2026-10-22 05:17:03",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 8,
-    "bad": 3,
+    "ok": 7,
+    "bad": 4,
     "unknown": 0
   },
   "targets": [
@@ -16,18 +16,12 @@
       "url": "https://56gfy.github.io/ai-daily/",
       "addr_source": null,
       "remark": "",
-      "ok": true,
-      "status_code": 200,
-      "latency_ms": 496,
-      "error": null,
-      "checked_at": "2026-10-22 05:11:44",
+      "ok": false,
+      "status_code": null,
+      "latency_ms": null,
+      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
+      "checked_at": "2026-10-22 05:17:01",
       "history": [
-        {
-          "t": "2026-10-22 02:40:52",
-          "ok": true,
-          "code": 200,
-          "ms": 8444
-        },
         {
           "t": "2026-10-22 02:46:09",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 496
+        },
+        {
+          "t": "2026-10-22 05:17:01",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -2155,5 +2155,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-22 05:15:03"
+  "embedded_at": "2026-10-22 05:17:03"
 }
