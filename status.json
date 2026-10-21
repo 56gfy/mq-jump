@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-22 02:13:03",
+  "generated_at": "2026-10-22 02:15:03",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -13,21 +13,15 @@
       "name": "AI 资讯站",
       "group": "公网静态站",
       "kind": "static",
-      "url": null,
+      "url": "https://56gfy.github.io/ai-daily/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "探测器内部错误: ",
-      "checked_at": "2026-10-22 02:09:45",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 415,
+      "error": null,
+      "checked_at": "2026-10-22 02:14:53",
       "history": [
-        {
-          "t": "2026-10-21 23:37:47",
-          "ok": true,
-          "code": 200,
-          "ms": 6602
-        },
         {
           "t": "2026-10-21 23:42:50",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-22 02:14:53",
+          "ok": true,
+          "code": 200,
+          "ms": 415
         }
       ]
     },
@@ -211,18 +211,12 @@
       "url": "https://56gfy.github.io/kanwo-page/",
       "addr_source": null,
       "remark": "",
-      "ok": true,
-      "status_code": 200,
-      "latency_ms": 8627,
-      "error": null,
-      "checked_at": "2026-10-22 02:09:45",
+      "ok": false,
+      "status_code": null,
+      "latency_ms": null,
+      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
+      "checked_at": "2026-10-22 02:15:02",
       "history": [
-        {
-          "t": "2026-10-21 23:37:49",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-21 23:43:12",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 8627
+        },
+        {
+          "t": "2026-10-22 02:15:02",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -2155,5 +2155,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-22 02:13:03"
+  "embedded_at": "2026-10-22 02:15:03"
 }
