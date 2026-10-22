@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-22 21:41:04",
+  "generated_at": "2026-10-22 21:42:11",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 7,
-    "bad": 4,
+    "ok": 8,
+    "bad": 3,
     "unknown": 0
   },
   "targets": [
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 22127,
+      "latency_ms": 595,
       "error": null,
-      "checked_at": "2026-10-22 21:36:21",
+      "checked_at": "2026-10-22 21:41:21",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": true,
-          "code": 200,
-          "ms": 8547
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": false,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 22127
+        },
+        {
+          "t": "2026-10-22 21:41:21",
+          "ok": true,
+          "code": 200,
+          "ms": 595
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 17569,
+      "latency_ms": 16452,
       "error": null,
-      "checked_at": "2026-10-22 21:36:21",
+      "checked_at": "2026-10-22 21:41:37",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": true,
-          "code": 200,
-          "ms": 426
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 17569
+        },
+        {
+          "t": "2026-10-22 21:41:37",
+          "ok": true,
+          "code": 200,
+          "ms": 16452
         }
       ]
     },
@@ -406,18 +406,12 @@
       "url": "https://56gfy.github.io/mq-jump/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
-      "checked_at": "2026-10-22 21:36:21",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 777,
+      "error": null,
+      "checked_at": "2026-10-22 21:41:37",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": true,
-          "code": 200,
-          "ms": 567
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-22 21:41:37",
+          "ok": true,
+          "code": 200,
+          "ms": 777
         }
       ]
     },
@@ -605,14 +605,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json）：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
-      "checked_at": "2026-10-22 21:36:21",
+      "checked_at": "2026-10-22 21:41:37",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": false,
@@ -783,6 +777,12 @@
         },
         {
           "t": "2026-10-22 21:36:21",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-10-22 21:41:37",
           "ok": false,
           "code": null,
           "ms": null
@@ -800,14 +800,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-10-22 21:36:21",
+      "checked_at": "2026-10-22 21:41:37",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": false,
@@ -981,6 +975,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-22 21:41:37",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -995,14 +995,8 @@
       "status_code": 200,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-10-22 21:36:21",
+      "checked_at": "2026-10-22 21:41:37",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": true,
-          "code": 200,
-          "ms": 2
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": true,
@@ -1176,6 +1170,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-10-22 21:41:37",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -1188,16 +1188,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 2,
+      "latency_ms": 5,
       "error": null,
-      "checked_at": "2026-10-22 21:36:21",
+      "checked_at": "2026-10-22 21:41:37",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": true,
-          "code": 200,
-          "ms": 2
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": true,
@@ -1371,6 +1365,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-10-22 21:41:37",
+          "ok": true,
+          "code": 200,
+          "ms": 5
         }
       ]
     },
@@ -1383,16 +1383,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 3,
+      "latency_ms": 5,
       "error": null,
-      "checked_at": "2026-10-22 21:36:21",
+      "checked_at": "2026-10-22 21:41:37",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": true,
-          "code": 200,
-          "ms": 6
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": true,
@@ -1566,6 +1560,12 @@
           "ok": true,
           "code": 200,
           "ms": 3
+        },
+        {
+          "t": "2026-10-22 21:41:37",
+          "ok": true,
+          "code": 200,
+          "ms": 5
         }
       ]
     },
@@ -1578,16 +1578,10 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 12,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-10-22 21:36:21",
+      "checked_at": "2026-10-22 21:41:37",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": true,
-          "code": 404,
-          "ms": 5
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": true,
@@ -1761,6 +1755,12 @@
           "ok": true,
           "code": 404,
           "ms": 12
+        },
+        {
+          "t": "2026-10-22 21:41:37",
+          "ok": true,
+          "code": 404,
+          "ms": 3
         }
       ]
     },
@@ -1773,16 +1773,10 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 3,
+      "latency_ms": 4,
       "error": null,
-      "checked_at": "2026-10-22 21:36:21",
+      "checked_at": "2026-10-22 21:41:37",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": true,
-          "code": 200,
-          "ms": 4
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": true,
@@ -1956,6 +1950,12 @@
           "ok": true,
           "code": 200,
           "ms": 3
+        },
+        {
+          "t": "2026-10-22 21:41:37",
+          "ok": true,
+          "code": 200,
+          "ms": 4
         }
       ]
     },
@@ -1970,14 +1970,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-10-22 21:36:21",
+      "checked_at": "2026-10-22 21:41:37",
       "history": [
-        {
-          "t": "2026-10-22 19:04:16",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-22 19:09:25",
           "ok": false,
@@ -2151,9 +2145,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-22 21:41:37",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-10-22 21:41:04"
+  "embedded_at": "2026-10-22 21:42:11"
 }
