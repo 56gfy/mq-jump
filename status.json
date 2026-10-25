@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-26 04:51:03",
+  "generated_at": "2026-10-26 04:53:03",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -16,18 +16,12 @@
       "url": "https://56gfy.github.io/ai-daily/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
-      "checked_at": "2026-10-26 04:47:44",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 8712,
+      "error": null,
+      "checked_at": "2026-10-26 04:52:53",
       "history": [
-        {
-          "t": "2026-10-26 02:16:06",
-          "ok": true,
-          "code": 200,
-          "ms": 437
-        },
         {
           "t": "2026-10-26 02:21:20",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-26 04:52:53",
+          "ok": true,
+          "code": 200,
+          "ms": 8712
         }
       ]
     },
@@ -211,18 +211,12 @@
       "url": "https://56gfy.github.io/kanwo-page/",
       "addr_source": null,
       "remark": "",
-      "ok": true,
-      "status_code": 200,
-      "latency_ms": 431,
-      "error": null,
-      "checked_at": "2026-10-26 04:47:44",
+      "ok": false,
+      "status_code": null,
+      "latency_ms": null,
+      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
+      "checked_at": "2026-10-26 04:52:53",
       "history": [
-        {
-          "t": "2026-10-26 02:16:20",
-          "ok": true,
-          "code": 200,
-          "ms": 13948
-        },
         {
           "t": "2026-10-26 02:21:20",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 431
+        },
+        {
+          "t": "2026-10-26 04:52:53",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -2155,5 +2155,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-26 04:51:03"
+  "embedded_at": "2026-10-26 04:53:03"
 }
