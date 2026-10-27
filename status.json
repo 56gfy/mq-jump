@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-27 22:59:04",
+  "generated_at": "2026-10-27 23:01:04",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -20,14 +20,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
-      "checked_at": "2026-10-27 22:55:26",
+      "checked_at": "2026-10-27 23:00:59",
       "history": [
-        {
-          "t": "2026-10-27 20:22:19",
-          "ok": true,
-          "code": 200,
-          "ms": 22312
-        },
         {
           "t": "2026-10-27 20:27:20",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-27 23:00:59",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -211,18 +211,12 @@
       "url": "https://56gfy.github.io/kanwo-page/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：timed out",
-      "checked_at": "2026-10-27 22:55:50",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 2120,
+      "error": null,
+      "checked_at": "2026-10-27 23:00:59",
       "history": [
-        {
-          "t": "2026-10-27 20:22:19",
-          "ok": true,
-          "code": 200,
-          "ms": 546
-        },
         {
           "t": "2026-10-27 20:27:20",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-27 23:00:59",
+          "ok": true,
+          "code": 200,
+          "ms": 2120
         }
       ]
     },
@@ -406,18 +406,12 @@
       "url": "https://56gfy.github.io/mq-jump/",
       "addr_source": null,
       "remark": "",
-      "ok": true,
-      "status_code": 200,
-      "latency_ms": 3927,
-      "error": null,
-      "checked_at": "2026-10-27 22:55:50",
+      "ok": false,
+      "status_code": null,
+      "latency_ms": null,
+      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
+      "checked_at": "2026-10-27 23:00:59",
       "history": [
-        {
-          "t": "2026-10-27 20:22:19",
-          "ok": true,
-          "code": 200,
-          "ms": 8620
-        },
         {
           "t": "2026-10-27 20:27:28",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 3927
+        },
+        {
+          "t": "2026-10-27 23:00:59",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -2155,5 +2155,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-27 22:59:04"
+  "embedded_at": "2026-10-27 23:01:04"
 }
