@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-28 08:21:02",
+  "generated_at": "2026-10-28 08:23:03",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 8,
-    "bad": 3,
+    "ok": 9,
+    "bad": 2,
     "unknown": 0
   },
   "targets": [
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 470,
+      "latency_ms": 8084,
       "error": null,
-      "checked_at": "2026-10-28 08:17:21",
+      "checked_at": "2026-10-28 08:22:53",
       "history": [
-        {
-          "t": "2026-10-28 05:46:02",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-10-28 05:51:07",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 470
+        },
+        {
+          "t": "2026-10-28 08:22:53",
+          "ok": true,
+          "code": 200,
+          "ms": 8084
         }
       ]
     },
@@ -211,18 +211,12 @@
       "url": "https://56gfy.github.io/kanwo-page/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
-      "checked_at": "2026-10-28 08:17:45",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 16430,
+      "error": null,
+      "checked_at": "2026-10-28 08:23:01",
       "history": [
-        {
-          "t": "2026-10-28 05:46:07",
-          "ok": true,
-          "code": 200,
-          "ms": 22021
-        },
         {
           "t": "2026-10-28 05:51:12",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-28 08:23:01",
+          "ok": true,
+          "code": 200,
+          "ms": 16430
         }
       ]
     },
@@ -2155,5 +2155,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-28 08:21:02"
+  "embedded_at": "2026-10-28 08:23:03"
 }
