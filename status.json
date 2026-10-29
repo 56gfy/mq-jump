@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-30 00:29:05",
+  "generated_at": "2026-10-30 00:31:05",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 9,
-    "bad": 2,
+    "ok": 8,
+    "bad": 3,
     "unknown": 0
   },
   "targets": [
@@ -18,9 +18,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 5061,
+      "latency_ms": 1843,
       "error": null,
-      "checked_at": "2026-10-30 00:25:31",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:06",
@@ -75,6 +75,12 @@
           "ok": true,
           "code": 200,
           "ms": 5061
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": true,
+          "code": 200,
+          "ms": 1843
         }
       ]
     },
@@ -87,9 +93,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1278,
+      "latency_ms": 1016,
       "error": null,
-      "checked_at": "2026-10-30 00:25:31",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:08",
@@ -144,6 +150,12 @@
           "ok": true,
           "code": 200,
           "ms": 1278
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": true,
+          "code": 200,
+          "ms": 1016
         }
       ]
     },
@@ -156,9 +168,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 925,
+      "latency_ms": 445,
       "error": null,
-      "checked_at": "2026-10-30 00:25:31",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:08",
@@ -213,6 +225,12 @@
           "ok": true,
           "code": 200,
           "ms": 925
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": true,
+          "code": 200,
+          "ms": 445
         }
       ]
     },
@@ -225,9 +243,9 @@
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1248,
+      "latency_ms": 1194,
       "error": null,
-      "checked_at": "2026-10-30 00:25:31",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:08",
@@ -282,6 +300,12 @@
           "ok": true,
           "code": 200,
           "ms": 1248
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": true,
+          "code": 200,
+          "ms": 1194
         }
       ]
     },
@@ -296,7 +320,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
-      "checked_at": "2026-10-30 00:25:31",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:08",
@@ -351,6 +375,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -365,7 +395,7 @@
       "status_code": 200,
       "latency_ms": 5,
       "error": null,
-      "checked_at": "2026-10-30 00:25:31",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:08",
@@ -420,6 +450,12 @@
           "ok": true,
           "code": 200,
           "ms": 5
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": true,
+          "code": 200,
+          "ms": 5
         }
       ]
     },
@@ -434,7 +470,7 @@
       "status_code": 200,
       "latency_ms": 5,
       "error": null,
-      "checked_at": "2026-10-30 00:25:31",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:08",
@@ -489,6 +525,12 @@
           "ok": true,
           "code": 200,
           "ms": 5
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": true,
+          "code": 200,
+          "ms": 5
         }
       ]
     },
@@ -503,7 +545,7 @@
       "status_code": 200,
       "latency_ms": 5,
       "error": null,
-      "checked_at": "2026-10-30 00:25:31",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:08",
@@ -558,6 +600,12 @@
           "ok": true,
           "code": 200,
           "ms": 5
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": true,
+          "code": 200,
+          "ms": 5
         }
       ]
     },
@@ -568,11 +616,11 @@
       "url": "http://127.0.0.1:8644/",
       "addr_source": null,
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
-      "ok": true,
-      "status_code": 404,
-      "latency_ms": 4,
-      "error": null,
-      "checked_at": "2026-10-30 00:25:31",
+      "ok": false,
+      "status_code": null,
+      "latency_ms": null,
+      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:08",
@@ -627,6 +675,12 @@
           "ok": true,
           "code": 404,
           "ms": 4
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -639,9 +693,9 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 29,
+      "latency_ms": 51,
       "error": null,
-      "checked_at": "2026-10-30 00:25:31",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:08",
@@ -696,6 +750,12 @@
           "ok": true,
           "code": 200,
           "ms": 29
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": true,
+          "code": 200,
+          "ms": 51
         }
       ]
     },
@@ -710,7 +770,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-10-30 00:25:31",
+      "checked_at": "2026-10-30 00:30:33",
       "history": [
         {
           "t": "2026-10-29 23:45:08",
@@ -765,9 +825,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-30 00:30:33",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-10-30 00:29:05"
+  "embedded_at": "2026-10-30 00:31:05"
 }
