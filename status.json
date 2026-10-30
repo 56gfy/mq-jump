@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-31 04:23:02",
+  "generated_at": "2026-10-31 04:25:02",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 422,
+      "latency_ms": 244,
       "error": null,
-      "checked_at": "2026-10-31 04:19:54",
+      "checked_at": "2026-10-31 04:24:58",
       "history": [
-        {
-          "t": "2026-10-31 01:52:36",
-          "ok": true,
-          "code": 200,
-          "ms": 2043
-        },
         {
           "t": "2026-10-31 01:57:43",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 422
+        },
+        {
+          "t": "2026-10-31 04:24:58",
+          "ok": true,
+          "code": 200,
+          "ms": 244
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1003,
+      "latency_ms": 260,
       "error": null,
-      "checked_at": "2026-10-31 04:19:54",
+      "checked_at": "2026-10-31 04:24:58",
       "history": [
-        {
-          "t": "2026-10-31 01:52:37",
-          "ok": true,
-          "code": 200,
-          "ms": 3479
-        },
         {
           "t": "2026-10-31 01:57:48",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 1003
+        },
+        {
+          "t": "2026-10-31 04:24:58",
+          "ok": true,
+          "code": 200,
+          "ms": 260
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 2069,
+      "latency_ms": 244,
       "error": null,
-      "checked_at": "2026-10-31 04:19:55",
+      "checked_at": "2026-10-31 04:24:58",
       "history": [
-        {
-          "t": "2026-10-31 01:52:37",
-          "ok": true,
-          "code": 200,
-          "ms": 1466
-        },
         {
           "t": "2026-10-31 01:57:48",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 2069
+        },
+        {
+          "t": "2026-10-31 04:24:58",
+          "ok": true,
+          "code": 200,
+          "ms": 244
         }
       ]
     },
@@ -603,16 +603,10 @@
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 2212,
+      "latency_ms": 2350,
       "error": null,
-      "checked_at": "2026-10-31 04:19:58",
+      "checked_at": "2026-10-31 04:25:01",
       "history": [
-        {
-          "t": "2026-10-31 01:52:42",
-          "ok": true,
-          "code": 200,
-          "ms": 1646
-        },
         {
           "t": "2026-10-31 01:57:48",
           "ok": true,
@@ -786,6 +780,12 @@
           "ok": true,
           "code": 200,
           "ms": 2212
+        },
+        {
+          "t": "2026-10-31 04:25:01",
+          "ok": true,
+          "code": 200,
+          "ms": 2350
         }
       ]
     },
@@ -2155,5 +2155,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-31 04:23:02"
+  "embedded_at": "2026-10-31 04:25:02"
 }
