@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-10-31 00:19:03",
+  "generated_at": "2026-10-31 00:21:04",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 8,
-    "bad": 3,
+    "ok": 9,
+    "bad": 2,
     "unknown": 0
   },
   "targets": [
@@ -16,18 +16,12 @@
       "url": "https://56gfy.github.io/ai-daily/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：_ssl.c:1015: The handshake operation timed out",
-      "checked_at": "2026-10-31 00:16:01",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 1064,
+      "error": null,
+      "checked_at": "2026-10-31 00:21:02",
       "history": [
-        {
-          "t": "2026-10-30 21:48:45",
-          "ok": true,
-          "code": 200,
-          "ms": 605
-        },
         {
           "t": "2026-10-30 21:53:51",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-10-31 00:21:02",
+          "ok": true,
+          "code": 200,
+          "ms": 1064
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 571,
+      "latency_ms": 532,
       "error": null,
-      "checked_at": "2026-10-31 00:16:01",
+      "checked_at": "2026-10-31 00:21:02",
       "history": [
-        {
-          "t": "2026-10-30 21:48:48",
-          "ok": true,
-          "code": 200,
-          "ms": 3779
-        },
         {
           "t": "2026-10-30 21:53:52",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 571
+        },
+        {
+          "t": "2026-10-31 00:21:02",
+          "ok": true,
+          "code": 200,
+          "ms": 532
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1471,
+      "latency_ms": 1347,
       "error": null,
-      "checked_at": "2026-10-31 00:16:01",
+      "checked_at": "2026-10-31 00:21:02",
       "history": [
-        {
-          "t": "2026-10-30 21:48:50",
-          "ok": true,
-          "code": 200,
-          "ms": 5778
-        },
         {
           "t": "2026-10-30 21:53:55",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 1471
+        },
+        {
+          "t": "2026-10-31 00:21:02",
+          "ok": true,
+          "code": 200,
+          "ms": 1347
         }
       ]
     },
@@ -2155,5 +2155,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-10-31 00:19:03"
+  "embedded_at": "2026-10-31 00:21:04"
 }
