@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-05 22:55:06",
+  "generated_at": "2026-11-05 23:00:29",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -18,9 +18,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1073,
+      "latency_ms": 744,
       "error": null,
-      "checked_at": "2026-11-05 22:50:12",
+      "checked_at": "2026-11-05 23:00:22",
       "history": [
         {
           "t": "2026-11-05 22:45:09",
@@ -33,6 +33,18 @@
           "ok": true,
           "code": 200,
           "ms": 1073
+        },
+        {
+          "t": "2026-11-05 22:55:19",
+          "ok": true,
+          "code": 200,
+          "ms": 2151
+        },
+        {
+          "t": "2026-11-05 23:00:22",
+          "ok": true,
+          "code": 200,
+          "ms": 744
         }
       ]
     },
@@ -45,9 +57,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1316,
+      "latency_ms": 840,
       "error": null,
-      "checked_at": "2026-11-05 22:50:12",
+      "checked_at": "2026-11-05 23:00:22",
       "history": [
         {
           "t": "2026-11-05 22:45:09",
@@ -60,6 +72,18 @@
           "ok": true,
           "code": 200,
           "ms": 1316
+        },
+        {
+          "t": "2026-11-05 22:55:19",
+          "ok": true,
+          "code": 200,
+          "ms": 784
+        },
+        {
+          "t": "2026-11-05 23:00:22",
+          "ok": true,
+          "code": 200,
+          "ms": 840
         }
       ]
     },
@@ -72,9 +96,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 6330,
+      "latency_ms": 1054,
       "error": null,
-      "checked_at": "2026-11-05 22:50:17",
+      "checked_at": "2026-11-05 23:00:22",
       "history": [
         {
           "t": "2026-11-05 22:45:09",
@@ -87,6 +111,18 @@
           "ok": true,
           "code": 200,
           "ms": 6330
+        },
+        {
+          "t": "2026-11-05 22:55:19",
+          "ok": true,
+          "code": 200,
+          "ms": 550
+        },
+        {
+          "t": "2026-11-05 23:00:22",
+          "ok": true,
+          "code": 200,
+          "ms": 1054
         }
       ]
     },
@@ -99,9 +135,9 @@
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1411,
+      "latency_ms": 2063,
       "error": null,
-      "checked_at": "2026-11-05 22:50:17",
+      "checked_at": "2026-11-05 23:00:24",
       "history": [
         {
           "t": "2026-11-05 22:45:11",
@@ -114,6 +150,18 @@
           "ok": true,
           "code": 200,
           "ms": 1411
+        },
+        {
+          "t": "2026-11-05 22:55:20",
+          "ok": true,
+          "code": 200,
+          "ms": 2643
+        },
+        {
+          "t": "2026-11-05 23:00:24",
+          "ok": true,
+          "code": 200,
+          "ms": 2063
         }
       ]
     },
@@ -128,7 +176,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
-      "checked_at": "2026-11-05 22:50:17",
+      "checked_at": "2026-11-05 23:00:24",
       "history": [
         {
           "t": "2026-11-05 22:45:11",
@@ -138,6 +186,18 @@
         },
         {
           "t": "2026-11-05 22:50:17",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-05 22:55:20",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-05 23:00:24",
           "ok": false,
           "code": null,
           "ms": null
@@ -153,9 +213,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 13,
+      "latency_ms": 74,
       "error": null,
-      "checked_at": "2026-11-05 22:50:17",
+      "checked_at": "2026-11-05 23:00:24",
       "history": [
         {
           "t": "2026-11-05 22:45:11",
@@ -168,6 +228,18 @@
           "ok": true,
           "code": 200,
           "ms": 13
+        },
+        {
+          "t": "2026-11-05 22:55:20",
+          "ok": true,
+          "code": 200,
+          "ms": 74
+        },
+        {
+          "t": "2026-11-05 23:00:24",
+          "ok": true,
+          "code": 200,
+          "ms": 74
         }
       ]
     },
@@ -180,9 +252,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 12,
+      "latency_ms": 21,
       "error": null,
-      "checked_at": "2026-11-05 22:50:17",
+      "checked_at": "2026-11-05 23:00:24",
       "history": [
         {
           "t": "2026-11-05 22:45:11",
@@ -195,6 +267,18 @@
           "ok": true,
           "code": 200,
           "ms": 12
+        },
+        {
+          "t": "2026-11-05 22:55:20",
+          "ok": true,
+          "code": 200,
+          "ms": 74
+        },
+        {
+          "t": "2026-11-05 23:00:24",
+          "ok": true,
+          "code": 200,
+          "ms": 21
         }
       ]
     },
@@ -207,9 +291,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 10,
+      "latency_ms": 47,
       "error": null,
-      "checked_at": "2026-11-05 22:50:17",
+      "checked_at": "2026-11-05 23:00:24",
       "history": [
         {
           "t": "2026-11-05 22:45:11",
@@ -222,6 +306,18 @@
           "ok": true,
           "code": 200,
           "ms": 10
+        },
+        {
+          "t": "2026-11-05 22:55:20",
+          "ok": true,
+          "code": 200,
+          "ms": 51
+        },
+        {
+          "t": "2026-11-05 23:00:24",
+          "ok": true,
+          "code": 200,
+          "ms": 47
         }
       ]
     },
@@ -234,9 +330,9 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 14,
+      "latency_ms": 82,
       "error": null,
-      "checked_at": "2026-11-05 22:50:17",
+      "checked_at": "2026-11-05 23:00:24",
       "history": [
         {
           "t": "2026-11-05 22:45:11",
@@ -249,6 +345,18 @@
           "ok": true,
           "code": 404,
           "ms": 14
+        },
+        {
+          "t": "2026-11-05 22:55:20",
+          "ok": true,
+          "code": 404,
+          "ms": 50
+        },
+        {
+          "t": "2026-11-05 23:00:24",
+          "ok": true,
+          "code": 404,
+          "ms": 82
         }
       ]
     },
@@ -261,9 +369,9 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 19,
+      "latency_ms": 85,
       "error": null,
-      "checked_at": "2026-11-05 22:50:17",
+      "checked_at": "2026-11-05 23:00:24",
       "history": [
         {
           "t": "2026-11-05 22:45:11",
@@ -276,6 +384,18 @@
           "ok": true,
           "code": 200,
           "ms": 19
+        },
+        {
+          "t": "2026-11-05 22:55:20",
+          "ok": true,
+          "code": 200,
+          "ms": 53
+        },
+        {
+          "t": "2026-11-05 23:00:24",
+          "ok": true,
+          "code": 200,
+          "ms": 85
         }
       ]
     },
@@ -290,7 +410,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-05 22:50:17",
+      "checked_at": "2026-11-05 23:00:24",
       "history": [
         {
           "t": "2026-11-05 22:45:11",
@@ -303,9 +423,21 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-05 22:55:20",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-05 23:00:24",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-11-05 22:55:06"
+  "embedded_at": "2026-11-05 23:00:29"
 }
