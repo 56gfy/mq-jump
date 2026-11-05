@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-05 23:10:06",
+  "generated_at": "2026-11-05 23:10:29",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -18,9 +18,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 457,
+      "latency_ms": 1827,
       "error": null,
-      "checked_at": "2026-11-05 23:05:24",
+      "checked_at": "2026-11-05 23:10:28",
       "history": [
         {
           "t": "2026-11-05 22:45:09",
@@ -51,6 +51,12 @@
           "ok": true,
           "code": 200,
           "ms": 457
+        },
+        {
+          "t": "2026-11-05 23:10:28",
+          "ok": true,
+          "code": 200,
+          "ms": 1827
         }
       ]
     },
@@ -63,9 +69,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 607,
+      "latency_ms": 942,
       "error": null,
-      "checked_at": "2026-11-05 23:05:24",
+      "checked_at": "2026-11-05 23:10:28",
       "history": [
         {
           "t": "2026-11-05 22:45:09",
@@ -96,6 +102,12 @@
           "ok": true,
           "code": 200,
           "ms": 607
+        },
+        {
+          "t": "2026-11-05 23:10:28",
+          "ok": true,
+          "code": 200,
+          "ms": 942
         }
       ]
     },
@@ -108,9 +120,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 561,
+      "latency_ms": 634,
       "error": null,
-      "checked_at": "2026-11-05 23:05:24",
+      "checked_at": "2026-11-05 23:10:28",
       "history": [
         {
           "t": "2026-11-05 22:45:09",
@@ -141,6 +153,12 @@
           "ok": true,
           "code": 200,
           "ms": 561
+        },
+        {
+          "t": "2026-11-05 23:10:28",
+          "ok": true,
+          "code": 200,
+          "ms": 634
         }
       ]
     },
@@ -505,5 +523,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-11-05 23:10:06"
+  "embedded_at": "2026-11-05 23:10:29"
 }
