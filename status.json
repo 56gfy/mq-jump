@@ -1,12 +1,12 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-05 22:10:07",
+  "generated_at": "2026-11-05 22:15:06",
   "interval": 300,
   "summary": {
     "total": 11,
     "ok": 8,
-    "bad": 2,
-    "unknown": 1
+    "bad": 3,
+    "unknown": 0
   },
   "targets": [
     {
@@ -226,13 +226,20 @@
       "url": "http://127.0.0.1:8891/",
       "addr_source": null,
       "remark": "channels-bridge，根路径无页面属正常，404 即代表进程在线。",
-      "ok": null,
+      "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": null,
-      "checked_at": null,
-      "history": []
+      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "checked_at": "2026-11-05 22:10:08",
+      "history": [
+        {
+          "t": "2026-11-05 22:10:08",
+          "ok": false,
+          "code": null,
+          "ms": null
+        }
+      ]
     }
   ],
-  "embedded_at": "2026-11-05 22:10:07"
+  "embedded_at": "2026-11-05 22:15:06"
 }
