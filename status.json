@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-11 21:55:04",
+  "generated_at": "2026-11-11 22:00:04",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 7,
-    "bad": 4,
+    "ok": 8,
+    "bad": 3,
     "unknown": 0
   },
   "targets": [
@@ -18,16 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 5754,
+      "latency_ms": 760,
       "error": null,
-      "checked_at": "2026-11-11 21:53:53",
+      "checked_at": "2026-11-11 21:58:56",
       "history": [
-        {
-          "t": "2026-11-11 19:26:55",
-          "ok": true,
-          "code": 200,
-          "ms": 818
-        },
         {
           "t": "2026-11-11 19:31:57",
           "ok": true,
@@ -201,6 +195,12 @@
           "ok": true,
           "code": 200,
           "ms": 5754
+        },
+        {
+          "t": "2026-11-11 21:58:56",
+          "ok": true,
+          "code": 200,
+          "ms": 760
         }
       ]
     },
@@ -213,16 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 7879,
+      "latency_ms": 734,
       "error": null,
-      "checked_at": "2026-11-11 21:53:55",
+      "checked_at": "2026-11-11 21:58:56",
       "history": [
-        {
-          "t": "2026-11-11 19:26:55",
-          "ok": true,
-          "code": 200,
-          "ms": 696
-        },
         {
           "t": "2026-11-11 19:31:57",
           "ok": true,
@@ -396,6 +390,12 @@
           "ok": true,
           "code": 200,
           "ms": 7879
+        },
+        {
+          "t": "2026-11-11 21:58:56",
+          "ok": true,
+          "code": 200,
+          "ms": 734
         }
       ]
     },
@@ -408,16 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1714,
+      "latency_ms": 3811,
       "error": null,
-      "checked_at": "2026-11-11 21:53:55",
+      "checked_at": "2026-11-11 21:58:59",
       "history": [
-        {
-          "t": "2026-11-11 19:26:55",
-          "ok": true,
-          "code": 200,
-          "ms": 748
-        },
         {
           "t": "2026-11-11 19:31:58",
           "ok": true,
@@ -591,6 +585,12 @@
           "ok": true,
           "code": 200,
           "ms": 1714
+        },
+        {
+          "t": "2026-11-11 21:58:59",
+          "ok": true,
+          "code": 200,
+          "ms": 3811
         }
       ]
     },
@@ -601,18 +601,12 @@
       "url": "https://fulminis.serveousercontent.com",
       "addr_source": "https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json",
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
-      "ok": false,
-      "status_code": 502,
-      "latency_ms": 6059,
-      "error": "HTTP 502",
-      "checked_at": "2026-11-11 21:53:55",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 3155,
+      "error": null,
+      "checked_at": "2026-11-11 21:58:59",
       "history": [
-        {
-          "t": "2026-11-11 19:26:56",
-          "ok": true,
-          "code": 200,
-          "ms": 1446
-        },
         {
           "t": "2026-11-11 19:31:59",
           "ok": true,
@@ -786,6 +780,12 @@
           "ok": false,
           "code": 502,
           "ms": 6059
+        },
+        {
+          "t": "2026-11-11 21:58:59",
+          "ok": true,
+          "code": 200,
+          "ms": 3155
         }
       ]
     },
@@ -800,14 +800,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
-      "checked_at": "2026-11-11 21:53:55",
+      "checked_at": "2026-11-11 21:58:59",
       "history": [
-        {
-          "t": "2026-11-11 19:26:56",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-11-11 19:31:59",
           "ok": false,
@@ -981,6 +975,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-11 21:58:59",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -995,14 +995,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-11 21:53:55",
+      "checked_at": "2026-11-11 21:58:59",
       "history": [
-        {
-          "t": "2026-11-11 19:26:56",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-11-11 19:31:59",
           "ok": false,
@@ -1176,6 +1170,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-11 21:58:59",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -1188,16 +1188,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 43,
+      "latency_ms": 99,
       "error": null,
-      "checked_at": "2026-11-11 21:53:55",
+      "checked_at": "2026-11-11 21:58:59",
       "history": [
-        {
-          "t": "2026-11-11 19:26:56",
-          "ok": true,
-          "code": 200,
-          "ms": 73
-        },
         {
           "t": "2026-11-11 19:31:59",
           "ok": true,
@@ -1371,6 +1365,12 @@
           "ok": true,
           "code": 200,
           "ms": 43
+        },
+        {
+          "t": "2026-11-11 21:58:59",
+          "ok": true,
+          "code": 200,
+          "ms": 99
         }
       ]
     },
@@ -1383,16 +1383,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 41,
+      "latency_ms": 83,
       "error": null,
-      "checked_at": "2026-11-11 21:53:55",
+      "checked_at": "2026-11-11 21:58:59",
       "history": [
-        {
-          "t": "2026-11-11 19:26:56",
-          "ok": true,
-          "code": 200,
-          "ms": 69
-        },
         {
           "t": "2026-11-11 19:31:59",
           "ok": true,
@@ -1566,6 +1560,12 @@
           "ok": true,
           "code": 200,
           "ms": 41
+        },
+        {
+          "t": "2026-11-11 21:58:59",
+          "ok": true,
+          "code": 200,
+          "ms": 83
         }
       ]
     },
@@ -1578,16 +1578,10 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 40,
+      "latency_ms": 124,
       "error": null,
-      "checked_at": "2026-11-11 21:53:55",
+      "checked_at": "2026-11-11 21:58:59",
       "history": [
-        {
-          "t": "2026-11-11 19:26:56",
-          "ok": true,
-          "code": 404,
-          "ms": 108
-        },
         {
           "t": "2026-11-11 19:31:59",
           "ok": true,
@@ -1761,6 +1755,12 @@
           "ok": true,
           "code": 404,
           "ms": 40
+        },
+        {
+          "t": "2026-11-11 21:58:59",
+          "ok": true,
+          "code": 404,
+          "ms": 124
         }
       ]
     },
@@ -1773,16 +1773,10 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 66,
+      "latency_ms": 130,
       "error": null,
-      "checked_at": "2026-11-11 21:53:55",
+      "checked_at": "2026-11-11 21:58:59",
       "history": [
-        {
-          "t": "2026-11-11 19:26:56",
-          "ok": true,
-          "code": 200,
-          "ms": 91
-        },
         {
           "t": "2026-11-11 19:31:59",
           "ok": true,
@@ -1956,6 +1950,12 @@
           "ok": true,
           "code": 200,
           "ms": 66
+        },
+        {
+          "t": "2026-11-11 21:58:59",
+          "ok": true,
+          "code": 200,
+          "ms": 130
         }
       ]
     },
@@ -1970,14 +1970,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-11 21:53:55",
+      "checked_at": "2026-11-11 21:58:59",
       "history": [
-        {
-          "t": "2026-11-11 19:26:56",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-11-11 19:31:59",
           "ok": false,
@@ -2151,9 +2145,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-11 21:58:59",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-11-11 21:55:04"
+  "embedded_at": "2026-11-11 22:00:04"
 }
