@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-15 13:00:13",
+  "generated_at": "2026-11-15 13:06:34",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -18,22 +18,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1365,
+      "latency_ms": 8413,
       "error": null,
-      "checked_at": "2026-11-15 12:55:35",
+      "checked_at": "2026-11-15 13:06:04",
       "history": [
-        {
-          "t": "2026-11-15 10:28:51",
-          "ok": true,
-          "code": 200,
-          "ms": 461
-        },
-        {
-          "t": "2026-11-15 10:33:55",
-          "ok": true,
-          "code": 200,
-          "ms": 1341
-        },
         {
           "t": "2026-11-15 10:38:57",
           "ok": true,
@@ -201,6 +189,18 @@
           "ok": true,
           "code": 200,
           "ms": 1365
+        },
+        {
+          "t": "2026-11-15 13:00:37",
+          "ok": true,
+          "code": 200,
+          "ms": 1732
+        },
+        {
+          "t": "2026-11-15 13:06:04",
+          "ok": true,
+          "code": 200,
+          "ms": 8413
         }
       ]
     },
@@ -213,22 +213,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 563,
+      "latency_ms": 6830,
       "error": null,
-      "checked_at": "2026-11-15 12:55:35",
+      "checked_at": "2026-11-15 13:06:04",
       "history": [
-        {
-          "t": "2026-11-15 10:28:52",
-          "ok": true,
-          "code": 200,
-          "ms": 683
-        },
-        {
-          "t": "2026-11-15 10:33:55",
-          "ok": true,
-          "code": 200,
-          "ms": 1370
-        },
         {
           "t": "2026-11-15 10:38:57",
           "ok": true,
@@ -396,6 +384,18 @@
           "ok": true,
           "code": 200,
           "ms": 563
+        },
+        {
+          "t": "2026-11-15 13:00:37",
+          "ok": true,
+          "code": 200,
+          "ms": 1733
+        },
+        {
+          "t": "2026-11-15 13:06:04",
+          "ok": true,
+          "code": 200,
+          "ms": 6830
         }
       ]
     },
@@ -408,22 +408,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 475,
+      "latency_ms": 6239,
       "error": null,
-      "checked_at": "2026-11-15 12:55:35",
+      "checked_at": "2026-11-15 13:06:04",
       "history": [
-        {
-          "t": "2026-11-15 10:28:52",
-          "ok": true,
-          "code": 200,
-          "ms": 1430
-        },
-        {
-          "t": "2026-11-15 10:33:55",
-          "ok": true,
-          "code": 200,
-          "ms": 1245
-        },
         {
           "t": "2026-11-15 10:38:57",
           "ok": true,
@@ -591,6 +579,18 @@
           "ok": true,
           "code": 200,
           "ms": 475
+        },
+        {
+          "t": "2026-11-15 13:00:38",
+          "ok": true,
+          "code": 200,
+          "ms": 2056
+        },
+        {
+          "t": "2026-11-15 13:06:04",
+          "ok": true,
+          "code": 200,
+          "ms": 6239
         }
       ]
     },
@@ -603,22 +603,10 @@
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1355,
+      "latency_ms": 7597,
       "error": null,
-      "checked_at": "2026-11-15 12:55:35",
+      "checked_at": "2026-11-15 13:06:18",
       "history": [
-        {
-          "t": "2026-11-15 10:28:53",
-          "ok": true,
-          "code": 200,
-          "ms": 1357
-        },
-        {
-          "t": "2026-11-15 10:33:56",
-          "ok": true,
-          "code": 200,
-          "ms": 1497
-        },
         {
           "t": "2026-11-15 10:38:58",
           "ok": true,
@@ -786,6 +774,18 @@
           "ok": true,
           "code": 200,
           "ms": 1355
+        },
+        {
+          "t": "2026-11-15 13:00:49",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-15 13:06:18",
+          "ok": true,
+          "code": 200,
+          "ms": 7597
         }
       ]
     },
@@ -799,21 +799,9 @@
       "ok": false,
       "status_code": null,
       "latency_ms": null,
-      "error": "连接失败：[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
-      "checked_at": "2026-11-15 12:55:35",
+      "error": "连接失败：[WinError 10053] 你的主机中的软件中止了一个已建立的连接。",
+      "checked_at": "2026-11-15 13:06:18",
       "history": [
-        {
-          "t": "2026-11-15 10:28:53",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
-        {
-          "t": "2026-11-15 10:33:56",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-11-15 10:38:58",
           "ok": false,
@@ -978,6 +966,18 @@
         },
         {
           "t": "2026-11-15 12:55:35",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-15 13:00:49",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-15 13:06:18",
           "ok": false,
           "code": null,
           "ms": null
@@ -995,20 +995,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-15 12:55:35",
+      "checked_at": "2026-11-15 13:06:18",
       "history": [
-        {
-          "t": "2026-11-15 10:28:53",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
-        {
-          "t": "2026-11-15 10:33:56",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-11-15 10:38:58",
           "ok": false,
@@ -1176,6 +1164,18 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-15 13:00:49",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-15 13:06:18",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -1188,22 +1188,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 3,
+      "latency_ms": 660,
       "error": null,
-      "checked_at": "2026-11-15 12:55:35",
+      "checked_at": "2026-11-15 13:06:18",
       "history": [
-        {
-          "t": "2026-11-15 10:28:53",
-          "ok": true,
-          "code": 200,
-          "ms": 8
-        },
-        {
-          "t": "2026-11-15 10:33:56",
-          "ok": true,
-          "code": 200,
-          "ms": 249
-        },
         {
           "t": "2026-11-15 10:38:58",
           "ok": true,
@@ -1371,6 +1359,18 @@
           "ok": true,
           "code": 200,
           "ms": 3
+        },
+        {
+          "t": "2026-11-15 13:00:49",
+          "ok": true,
+          "code": 200,
+          "ms": 134
+        },
+        {
+          "t": "2026-11-15 13:06:18",
+          "ok": true,
+          "code": 200,
+          "ms": 660
         }
       ]
     },
@@ -1383,22 +1383,10 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 5,
+      "latency_ms": 633,
       "error": null,
-      "checked_at": "2026-11-15 12:55:35",
+      "checked_at": "2026-11-15 13:06:18",
       "history": [
-        {
-          "t": "2026-11-15 10:28:53",
-          "ok": true,
-          "code": 200,
-          "ms": 7
-        },
-        {
-          "t": "2026-11-15 10:33:56",
-          "ok": true,
-          "code": 200,
-          "ms": 233
-        },
         {
           "t": "2026-11-15 10:38:58",
           "ok": true,
@@ -1566,6 +1554,18 @@
           "ok": true,
           "code": 200,
           "ms": 5
+        },
+        {
+          "t": "2026-11-15 13:00:49",
+          "ok": true,
+          "code": 200,
+          "ms": 116
+        },
+        {
+          "t": "2026-11-15 13:06:18",
+          "ok": true,
+          "code": 200,
+          "ms": 633
         }
       ]
     },
@@ -1578,22 +1578,10 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 4,
+      "latency_ms": 563,
       "error": null,
-      "checked_at": "2026-11-15 12:55:35",
+      "checked_at": "2026-11-15 13:06:18",
       "history": [
-        {
-          "t": "2026-11-15 10:28:53",
-          "ok": true,
-          "code": 404,
-          "ms": 3
-        },
-        {
-          "t": "2026-11-15 10:33:56",
-          "ok": true,
-          "code": 404,
-          "ms": 187
-        },
         {
           "t": "2026-11-15 10:38:58",
           "ok": true,
@@ -1761,6 +1749,18 @@
           "ok": true,
           "code": 404,
           "ms": 4
+        },
+        {
+          "t": "2026-11-15 13:00:49",
+          "ok": true,
+          "code": 404,
+          "ms": 259
+        },
+        {
+          "t": "2026-11-15 13:06:18",
+          "ok": true,
+          "code": 404,
+          "ms": 563
         }
       ]
     },
@@ -1773,22 +1773,10 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 13,
+      "latency_ms": 192,
       "error": null,
-      "checked_at": "2026-11-15 12:55:35",
+      "checked_at": "2026-11-15 13:06:18",
       "history": [
-        {
-          "t": "2026-11-15 10:28:53",
-          "ok": true,
-          "code": 200,
-          "ms": 46
-        },
-        {
-          "t": "2026-11-15 10:33:56",
-          "ok": true,
-          "code": 200,
-          "ms": 146
-        },
         {
           "t": "2026-11-15 10:38:58",
           "ok": true,
@@ -1956,6 +1944,18 @@
           "ok": true,
           "code": 200,
           "ms": 13
+        },
+        {
+          "t": "2026-11-15 13:00:49",
+          "ok": true,
+          "code": 200,
+          "ms": 153
+        },
+        {
+          "t": "2026-11-15 13:06:18",
+          "ok": true,
+          "code": 200,
+          "ms": 192
         }
       ]
     },
@@ -1970,20 +1970,8 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-15 12:55:35",
+      "checked_at": "2026-11-15 13:06:18",
       "history": [
-        {
-          "t": "2026-11-15 10:28:53",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
-        {
-          "t": "2026-11-15 10:33:56",
-          "ok": false,
-          "code": null,
-          "ms": null
-        },
         {
           "t": "2026-11-15 10:38:58",
           "ok": false,
@@ -2151,9 +2139,21 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-15 13:00:49",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-15 13:06:18",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-11-15 13:00:13"
+  "embedded_at": "2026-11-15 13:06:35"
 }
