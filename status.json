@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-18 17:50:03",
+  "generated_at": "2026-11-18 17:55:04",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -18,9 +18,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 468,
+      "latency_ms": 493,
       "error": null,
-      "checked_at": "2026-11-18 17:49:02",
+      "checked_at": "2026-11-18 17:54:07",
       "history": [
         {
           "t": "2026-11-18 17:33:47",
@@ -45,6 +45,12 @@
           "ok": true,
           "code": 200,
           "ms": 468
+        },
+        {
+          "t": "2026-11-18 17:54:07",
+          "ok": true,
+          "code": 200,
+          "ms": 493
         }
       ]
     },
@@ -57,9 +63,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 491,
+      "latency_ms": 524,
       "error": null,
-      "checked_at": "2026-11-18 17:49:02",
+      "checked_at": "2026-11-18 17:54:07",
       "history": [
         {
           "t": "2026-11-18 17:33:47",
@@ -84,6 +90,12 @@
           "ok": true,
           "code": 200,
           "ms": 491
+        },
+        {
+          "t": "2026-11-18 17:54:07",
+          "ok": true,
+          "code": 200,
+          "ms": 524
         }
       ]
     },
@@ -96,9 +108,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 471,
+      "latency_ms": 449,
       "error": null,
-      "checked_at": "2026-11-18 17:49:02",
+      "checked_at": "2026-11-18 17:54:07",
       "history": [
         {
           "t": "2026-11-18 17:33:47",
@@ -123,6 +135,12 @@
           "ok": true,
           "code": 200,
           "ms": 471
+        },
+        {
+          "t": "2026-11-18 17:54:07",
+          "ok": true,
+          "code": 200,
+          "ms": 449
         }
       ]
     },
@@ -137,7 +155,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json）：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
-      "checked_at": "2026-11-18 17:49:07",
+      "checked_at": "2026-11-18 17:54:12",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -159,6 +177,12 @@
         },
         {
           "t": "2026-11-18 17:49:07",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-18 17:54:12",
           "ok": false,
           "code": null,
           "ms": null
@@ -176,7 +200,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-18 17:49:07",
+      "checked_at": "2026-11-18 17:54:12",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -201,6 +225,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-18 17:54:12",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -213,9 +243,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 4,
+      "latency_ms": 5,
       "error": null,
-      "checked_at": "2026-11-18 17:49:07",
+      "checked_at": "2026-11-18 17:54:12",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -240,6 +270,12 @@
           "ok": true,
           "code": 200,
           "ms": 4
+        },
+        {
+          "t": "2026-11-18 17:54:12",
+          "ok": true,
+          "code": 200,
+          "ms": 5
         }
       ]
     },
@@ -252,9 +288,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 14,
+      "latency_ms": 6,
       "error": null,
-      "checked_at": "2026-11-18 17:49:07",
+      "checked_at": "2026-11-18 17:54:12",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -279,6 +315,12 @@
           "ok": true,
           "code": 200,
           "ms": 14
+        },
+        {
+          "t": "2026-11-18 17:54:12",
+          "ok": true,
+          "code": 200,
+          "ms": 6
         }
       ]
     },
@@ -293,7 +335,7 @@
       "status_code": 200,
       "latency_ms": 4,
       "error": null,
-      "checked_at": "2026-11-18 17:49:07",
+      "checked_at": "2026-11-18 17:54:12",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -318,6 +360,12 @@
           "ok": true,
           "code": 200,
           "ms": 4
+        },
+        {
+          "t": "2026-11-18 17:54:12",
+          "ok": true,
+          "code": 200,
+          "ms": 4
         }
       ]
     },
@@ -330,9 +378,9 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 3,
+      "latency_ms": 18,
       "error": null,
-      "checked_at": "2026-11-18 17:49:07",
+      "checked_at": "2026-11-18 17:54:12",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -357,6 +405,12 @@
           "ok": true,
           "code": 404,
           "ms": 3
+        },
+        {
+          "t": "2026-11-18 17:54:12",
+          "ok": true,
+          "code": 404,
+          "ms": 18
         }
       ]
     },
@@ -369,9 +423,9 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 26,
+      "latency_ms": 42,
       "error": null,
-      "checked_at": "2026-11-18 17:49:07",
+      "checked_at": "2026-11-18 17:54:12",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -396,6 +450,12 @@
           "ok": true,
           "code": 200,
           "ms": 26
+        },
+        {
+          "t": "2026-11-18 17:54:12",
+          "ok": true,
+          "code": 200,
+          "ms": 42
         }
       ]
     },
@@ -410,7 +470,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-18 17:49:07",
+      "checked_at": "2026-11-18 17:54:12",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -435,9 +495,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-18 17:54:12",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-11-18 17:50:03"
+  "embedded_at": "2026-11-18 17:55:04"
 }
