@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-18 19:00:05",
+  "generated_at": "2026-11-18 19:05:07",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -18,9 +18,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 634,
+      "latency_ms": 931,
       "error": null,
-      "checked_at": "2026-11-18 18:55:08",
+      "checked_at": "2026-11-18 19:00:13",
       "history": [
         {
           "t": "2026-11-18 17:33:47",
@@ -123,6 +123,12 @@
           "ok": true,
           "code": 200,
           "ms": 634
+        },
+        {
+          "t": "2026-11-18 19:00:13",
+          "ok": true,
+          "code": 200,
+          "ms": 931
         }
       ]
     },
@@ -135,9 +141,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 434,
+      "latency_ms": 1130,
       "error": null,
-      "checked_at": "2026-11-18 18:55:08",
+      "checked_at": "2026-11-18 19:00:13",
       "history": [
         {
           "t": "2026-11-18 17:33:47",
@@ -240,6 +246,12 @@
           "ok": true,
           "code": 200,
           "ms": 434
+        },
+        {
+          "t": "2026-11-18 19:00:13",
+          "ok": true,
+          "code": 200,
+          "ms": 1130
         }
       ]
     },
@@ -252,9 +264,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 573,
+      "latency_ms": 1687,
       "error": null,
-      "checked_at": "2026-11-18 18:55:08",
+      "checked_at": "2026-11-18 19:00:14",
       "history": [
         {
           "t": "2026-11-18 17:33:47",
@@ -357,6 +369,12 @@
           "ok": true,
           "code": 200,
           "ms": 573
+        },
+        {
+          "t": "2026-11-18 19:00:14",
+          "ok": true,
+          "code": 200,
+          "ms": 1687
         }
       ]
     },
@@ -371,7 +389,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json）：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
-      "checked_at": "2026-11-18 18:55:12",
+      "checked_at": "2026-11-18 19:00:17",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -471,6 +489,12 @@
         },
         {
           "t": "2026-11-18 18:55:12",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-18 19:00:17",
           "ok": false,
           "code": null,
           "ms": null
@@ -488,7 +512,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-18 18:55:12",
+      "checked_at": "2026-11-18 19:00:17",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -591,6 +615,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-18 19:00:17",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -605,7 +635,7 @@
       "status_code": 200,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-11-18 18:55:12",
+      "checked_at": "2026-11-18 19:00:17",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -708,6 +738,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-11-18 19:00:17",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -720,9 +756,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 4,
+      "latency_ms": 17,
       "error": null,
-      "checked_at": "2026-11-18 18:55:12",
+      "checked_at": "2026-11-18 19:00:17",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -825,6 +861,12 @@
           "ok": true,
           "code": 200,
           "ms": 4
+        },
+        {
+          "t": "2026-11-18 19:00:17",
+          "ok": true,
+          "code": 200,
+          "ms": 17
         }
       ]
     },
@@ -837,9 +879,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 4,
+      "latency_ms": 5,
       "error": null,
-      "checked_at": "2026-11-18 18:55:12",
+      "checked_at": "2026-11-18 19:00:17",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -942,6 +984,12 @@
           "ok": true,
           "code": 200,
           "ms": 4
+        },
+        {
+          "t": "2026-11-18 19:00:17",
+          "ok": true,
+          "code": 200,
+          "ms": 5
         }
       ]
     },
@@ -956,7 +1004,7 @@
       "status_code": 404,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-11-18 18:55:12",
+      "checked_at": "2026-11-18 19:00:17",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -1059,6 +1107,12 @@
           "ok": true,
           "code": 404,
           "ms": 2
+        },
+        {
+          "t": "2026-11-18 19:00:17",
+          "ok": true,
+          "code": 404,
+          "ms": 2
         }
       ]
     },
@@ -1071,9 +1125,9 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 44,
+      "latency_ms": 9,
       "error": null,
-      "checked_at": "2026-11-18 18:55:12",
+      "checked_at": "2026-11-18 19:00:17",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -1176,6 +1230,12 @@
           "ok": true,
           "code": 200,
           "ms": 44
+        },
+        {
+          "t": "2026-11-18 19:00:17",
+          "ok": true,
+          "code": 200,
+          "ms": 9
         }
       ]
     },
@@ -1190,7 +1250,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-18 18:55:12",
+      "checked_at": "2026-11-18 19:00:17",
       "history": [
         {
           "t": "2026-11-18 17:33:51",
@@ -1293,9 +1353,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-18 19:00:17",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-11-18 19:00:05"
+  "embedded_at": "2026-11-18 19:05:07"
 }
