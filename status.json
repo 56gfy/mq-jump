@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-21 21:40:05",
+  "generated_at": "2026-11-21 21:45:04",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 4,
-    "bad": 7,
+    "ok": 8,
+    "bad": 3,
     "unknown": 0
   },
   "targets": [
@@ -18,15 +18,21 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1176,
+      "latency_ms": 638,
       "error": null,
-      "checked_at": "2026-11-21 21:38:06",
+      "checked_at": "2026-11-21 21:43:17",
       "history": [
         {
           "t": "2026-11-21 21:38:06",
           "ok": true,
           "code": 200,
           "ms": 1176
+        },
+        {
+          "t": "2026-11-21 21:43:17",
+          "ok": true,
+          "code": 200,
+          "ms": 638
         }
       ]
     },
@@ -39,15 +45,21 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1286,
+      "latency_ms": 493,
       "error": null,
-      "checked_at": "2026-11-21 21:38:06",
+      "checked_at": "2026-11-21 21:43:17",
       "history": [
         {
           "t": "2026-11-21 21:38:06",
           "ok": true,
           "code": 200,
           "ms": 1286
+        },
+        {
+          "t": "2026-11-21 21:43:17",
+          "ok": true,
+          "code": 200,
+          "ms": 493
         }
       ]
     },
@@ -60,15 +72,21 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1175,
+      "latency_ms": 557,
       "error": null,
-      "checked_at": "2026-11-21 21:38:06",
+      "checked_at": "2026-11-21 21:43:17",
       "history": [
         {
           "t": "2026-11-21 21:38:06",
           "ok": true,
           "code": 200,
           "ms": 1175
+        },
+        {
+          "t": "2026-11-21 21:43:17",
+          "ok": true,
+          "code": 200,
+          "ms": 557
         }
       ]
     },
@@ -81,15 +99,21 @@
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
       "ok": false,
       "status_code": 502,
-      "latency_ms": 9732,
+      "latency_ms": 848,
       "error": "HTTP 502",
-      "checked_at": "2026-11-21 21:38:16",
+      "checked_at": "2026-11-21 21:43:17",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
           "ok": false,
           "code": 502,
           "ms": 9732
+        },
+        {
+          "t": "2026-11-21 21:43:17",
+          "ok": false,
+          "code": 502,
+          "ms": 848
         }
       ]
     },
@@ -104,10 +128,16 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[Errno 11001] getaddrinfo failed",
-      "checked_at": "2026-11-21 21:38:16",
+      "checked_at": "2026-11-21 21:43:17",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-21 21:43:17",
           "ok": false,
           "code": null,
           "ms": null
@@ -123,15 +153,21 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 11,
+      "latency_ms": 18,
       "error": null,
-      "checked_at": "2026-11-21 21:38:16",
+      "checked_at": "2026-11-21 21:43:17",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
           "ok": true,
           "code": 200,
           "ms": 11
+        },
+        {
+          "t": "2026-11-21 21:43:17",
+          "ok": true,
+          "code": 200,
+          "ms": 18
         }
       ]
     },
@@ -142,17 +178,23 @@
       "url": "http://127.0.0.1:8890/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-21 21:38:16",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 27,
+      "error": null,
+      "checked_at": "2026-11-21 21:43:17",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-21 21:43:17",
+          "ok": true,
+          "code": 200,
+          "ms": 27
         }
       ]
     },
@@ -163,17 +205,23 @@
       "url": "http://127.0.0.1:8748/",
       "addr_source": null,
       "remark": "",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-21 21:38:16",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 17,
+      "error": null,
+      "checked_at": "2026-11-21 21:43:17",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-21 21:43:17",
+          "ok": true,
+          "code": 200,
+          "ms": 17
         }
       ]
     },
@@ -184,17 +232,23 @@
       "url": "http://127.0.0.1:8644/",
       "addr_source": null,
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-21 21:38:16",
+      "ok": true,
+      "status_code": 404,
+      "latency_ms": 20,
+      "error": null,
+      "checked_at": "2026-11-21 21:43:17",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-21 21:43:17",
+          "ok": true,
+          "code": 404,
+          "ms": 20
         }
       ]
     },
@@ -205,17 +259,23 @@
       "url": "http://127.0.0.1:8787/health",
       "addr_source": null,
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
-      "ok": false,
-      "status_code": null,
-      "latency_ms": null,
-      "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-21 21:38:16",
+      "ok": true,
+      "status_code": 200,
+      "latency_ms": 24,
+      "error": null,
+      "checked_at": "2026-11-21 21:43:17",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-21 21:43:17",
+          "ok": true,
+          "code": 200,
+          "ms": 24
         }
       ]
     },
@@ -230,10 +290,16 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-21 21:38:16",
+      "checked_at": "2026-11-21 21:43:18",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-21 21:43:18",
           "ok": false,
           "code": null,
           "ms": null
@@ -241,5 +307,5 @@
       ]
     }
   ],
-  "embedded_at": "2026-11-21 21:40:05"
+  "embedded_at": "2026-11-21 21:45:04"
 }
