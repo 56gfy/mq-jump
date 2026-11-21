@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-21 23:40:04",
+  "generated_at": "2026-11-21 23:45:02",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -18,9 +18,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 504,
+      "latency_ms": 465,
       "error": null,
-      "checked_at": "2026-11-21 23:35:55",
+      "checked_at": "2026-11-21 23:41:02",
       "history": [
         {
           "t": "2026-11-21 21:38:06",
@@ -165,6 +165,12 @@
           "ok": true,
           "code": 200,
           "ms": 504
+        },
+        {
+          "t": "2026-11-21 23:41:02",
+          "ok": true,
+          "code": 200,
+          "ms": 465
         }
       ]
     },
@@ -177,9 +183,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 930,
+      "latency_ms": 757,
       "error": null,
-      "checked_at": "2026-11-21 23:35:56",
+      "checked_at": "2026-11-21 23:41:03",
       "history": [
         {
           "t": "2026-11-21 21:38:06",
@@ -324,6 +330,12 @@
           "ok": true,
           "code": 200,
           "ms": 930
+        },
+        {
+          "t": "2026-11-21 23:41:03",
+          "ok": true,
+          "code": 200,
+          "ms": 757
         }
       ]
     },
@@ -336,9 +348,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 686,
+      "latency_ms": 2442,
       "error": null,
-      "checked_at": "2026-11-21 23:35:56",
+      "checked_at": "2026-11-21 23:41:04",
       "history": [
         {
           "t": "2026-11-21 21:38:06",
@@ -483,6 +495,12 @@
           "ok": true,
           "code": 200,
           "ms": 686
+        },
+        {
+          "t": "2026-11-21 23:41:04",
+          "ok": true,
+          "code": 200,
+          "ms": 2442
         }
       ]
     },
@@ -495,9 +513,9 @@
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 5279,
+      "latency_ms": 2227,
       "error": null,
-      "checked_at": "2026-11-21 23:36:02",
+      "checked_at": "2026-11-21 23:41:06",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
@@ -642,6 +660,12 @@
           "ok": true,
           "code": 200,
           "ms": 5279
+        },
+        {
+          "t": "2026-11-21 23:41:06",
+          "ok": true,
+          "code": 200,
+          "ms": 2227
         }
       ]
     },
@@ -656,7 +680,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[Errno 11001] getaddrinfo failed",
-      "checked_at": "2026-11-21 23:36:02",
+      "checked_at": "2026-11-21 23:41:06",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
@@ -801,6 +825,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-21 23:41:06",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -815,7 +845,7 @@
       "status_code": 200,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-11-21 23:36:02",
+      "checked_at": "2026-11-21 23:41:06",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
@@ -960,6 +990,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-11-21 23:41:06",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -974,7 +1010,7 @@
       "status_code": 200,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-11-21 23:36:02",
+      "checked_at": "2026-11-21 23:41:06",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
@@ -1119,6 +1155,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-11-21 23:41:06",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -1133,7 +1175,7 @@
       "status_code": 200,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-11-21 23:36:02",
+      "checked_at": "2026-11-21 23:41:06",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
@@ -1278,6 +1320,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-11-21 23:41:06",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -1292,7 +1340,7 @@
       "status_code": 404,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-11-21 23:36:02",
+      "checked_at": "2026-11-21 23:41:06",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
@@ -1437,6 +1485,12 @@
           "ok": true,
           "code": 404,
           "ms": 2
+        },
+        {
+          "t": "2026-11-21 23:41:06",
+          "ok": true,
+          "code": 404,
+          "ms": 2
         }
       ]
     },
@@ -1451,7 +1505,7 @@
       "status_code": 200,
       "latency_ms": 25,
       "error": null,
-      "checked_at": "2026-11-21 23:36:02",
+      "checked_at": "2026-11-21 23:41:06",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
@@ -1596,6 +1650,12 @@
           "ok": true,
           "code": 200,
           "ms": 25
+        },
+        {
+          "t": "2026-11-21 23:41:06",
+          "ok": true,
+          "code": 200,
+          "ms": 25
         }
       ]
     },
@@ -1610,7 +1670,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-21 23:36:02",
+      "checked_at": "2026-11-21 23:41:06",
       "history": [
         {
           "t": "2026-11-21 21:38:16",
@@ -1755,9 +1815,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-21 23:41:06",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-11-21 23:40:04"
+  "embedded_at": "2026-11-21 23:45:02"
 }
