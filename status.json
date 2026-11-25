@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-25 22:45:05",
+  "generated_at": "2026-11-25 22:50:04",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -18,9 +18,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 610,
+      "latency_ms": 708,
       "error": null,
-      "checked_at": "2026-11-25 22:44:39",
+      "checked_at": "2026-11-25 22:49:43",
       "history": [
         {
           "t": "2026-11-25 21:23:35",
@@ -123,6 +123,12 @@
           "ok": true,
           "code": 200,
           "ms": 610
+        },
+        {
+          "t": "2026-11-25 22:49:43",
+          "ok": true,
+          "code": 200,
+          "ms": 708
         }
       ]
     },
@@ -135,9 +141,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 547,
+      "latency_ms": 492,
       "error": null,
-      "checked_at": "2026-11-25 22:44:39",
+      "checked_at": "2026-11-25 22:49:43",
       "history": [
         {
           "t": "2026-11-25 21:23:35",
@@ -240,6 +246,12 @@
           "ok": true,
           "code": 200,
           "ms": 547
+        },
+        {
+          "t": "2026-11-25 22:49:43",
+          "ok": true,
+          "code": 200,
+          "ms": 492
         }
       ]
     },
@@ -252,9 +264,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 447,
+      "latency_ms": 2012,
       "error": null,
-      "checked_at": "2026-11-25 22:44:39",
+      "checked_at": "2026-11-25 22:49:45",
       "history": [
         {
           "t": "2026-11-25 21:23:35",
@@ -357,6 +369,12 @@
           "ok": true,
           "code": 200,
           "ms": 447
+        },
+        {
+          "t": "2026-11-25 22:49:45",
+          "ok": true,
+          "code": 200,
+          "ms": 2012
         }
       ]
     },
@@ -371,7 +389,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "取址失败（https://raw.githubusercontent.com/56gfy/mq-jump/main/model_addr.json）：URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
-      "checked_at": "2026-11-25 22:44:43",
+      "checked_at": "2026-11-25 22:49:47",
       "history": [
         {
           "t": "2026-11-25 21:23:38",
@@ -471,6 +489,12 @@
         },
         {
           "t": "2026-11-25 22:44:43",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-25 22:49:47",
           "ok": false,
           "code": null,
           "ms": null
@@ -488,7 +512,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-25 22:44:43",
+      "checked_at": "2026-11-25 22:49:47",
       "history": [
         {
           "t": "2026-11-25 21:23:38",
@@ -591,6 +615,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-25 22:49:47",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -603,9 +633,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 2,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-11-25 22:44:43",
+      "checked_at": "2026-11-25 22:49:47",
       "history": [
         {
           "t": "2026-11-25 21:23:38",
@@ -708,6 +738,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-11-25 22:49:47",
+          "ok": true,
+          "code": 200,
+          "ms": 3
         }
       ]
     },
@@ -720,9 +756,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 2,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-11-25 22:44:43",
+      "checked_at": "2026-11-25 22:49:47",
       "history": [
         {
           "t": "2026-11-25 21:23:38",
@@ -825,6 +861,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-11-25 22:49:47",
+          "ok": true,
+          "code": 200,
+          "ms": 3
         }
       ]
     },
@@ -837,9 +879,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 3,
+      "latency_ms": 4,
       "error": null,
-      "checked_at": "2026-11-25 22:44:43",
+      "checked_at": "2026-11-25 22:49:47",
       "history": [
         {
           "t": "2026-11-25 21:23:38",
@@ -942,6 +984,12 @@
           "ok": true,
           "code": 200,
           "ms": 3
+        },
+        {
+          "t": "2026-11-25 22:49:47",
+          "ok": true,
+          "code": 200,
+          "ms": 4
         }
       ]
     },
@@ -956,7 +1004,7 @@
       "status_code": 404,
       "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-11-25 22:44:43",
+      "checked_at": "2026-11-25 22:49:47",
       "history": [
         {
           "t": "2026-11-25 21:23:38",
@@ -1059,6 +1107,12 @@
           "ok": true,
           "code": 404,
           "ms": 3
+        },
+        {
+          "t": "2026-11-25 22:49:47",
+          "ok": true,
+          "code": 404,
+          "ms": 3
         }
       ]
     },
@@ -1071,9 +1125,9 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 3060,
+      "latency_ms": 3055,
       "error": null,
-      "checked_at": "2026-11-25 22:44:43",
+      "checked_at": "2026-11-25 22:49:47",
       "history": [
         {
           "t": "2026-11-25 21:23:38",
@@ -1176,6 +1230,12 @@
           "ok": true,
           "code": 200,
           "ms": 3060
+        },
+        {
+          "t": "2026-11-25 22:49:47",
+          "ok": true,
+          "code": 200,
+          "ms": 3055
         }
       ]
     },
@@ -1190,7 +1250,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-25 22:44:43",
+      "checked_at": "2026-11-25 22:49:47",
       "history": [
         {
           "t": "2026-11-25 21:23:38",
@@ -1293,9 +1353,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-25 22:49:47",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-11-25 22:45:05"
+  "embedded_at": "2026-11-25 22:50:04"
 }
