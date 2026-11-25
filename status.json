@@ -1,11 +1,11 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-25 19:10:03",
+  "generated_at": "2026-11-25 19:15:04",
   "interval": 300,
   "summary": {
     "total": 11,
-    "ok": 8,
-    "bad": 3,
+    "ok": 7,
+    "bad": 4,
     "unknown": 0
   },
   "targets": [
@@ -18,9 +18,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 633,
+      "latency_ms": 460,
       "error": null,
-      "checked_at": "2026-11-25 19:09:56",
+      "checked_at": "2026-11-25 19:15:04",
       "history": [
         {
           "t": "2026-11-25 18:04:29",
@@ -105,6 +105,12 @@
           "ok": true,
           "code": 200,
           "ms": 633
+        },
+        {
+          "t": "2026-11-25 19:15:04",
+          "ok": true,
+          "code": 200,
+          "ms": 460
         }
       ]
     },
@@ -117,9 +123,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 433,
+      "latency_ms": 561,
       "error": null,
-      "checked_at": "2026-11-25 19:09:56",
+      "checked_at": "2026-11-25 19:15:04",
       "history": [
         {
           "t": "2026-11-25 18:04:29",
@@ -204,6 +210,12 @@
           "ok": true,
           "code": 200,
           "ms": 433
+        },
+        {
+          "t": "2026-11-25 19:15:04",
+          "ok": true,
+          "code": 200,
+          "ms": 561
         }
       ]
     },
@@ -216,9 +228,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 536,
+      "latency_ms": 727,
       "error": null,
-      "checked_at": "2026-11-25 19:09:56",
+      "checked_at": "2026-11-25 19:15:04",
       "history": [
         {
           "t": "2026-11-25 18:04:29",
@@ -303,6 +315,12 @@
           "ok": true,
           "code": 200,
           "ms": 536
+        },
+        {
+          "t": "2026-11-25 19:15:04",
+          "ok": true,
+          "code": 200,
+          "ms": 727
         }
       ]
     },
@@ -907,11 +925,11 @@
       "url": "http://127.0.0.1:8787/health",
       "addr_source": null,
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
-      "ok": true,
-      "status_code": 200,
-      "latency_ms": 45,
-      "error": null,
-      "checked_at": "2026-11-25 19:04:55",
+      "ok": false,
+      "status_code": null,
+      "latency_ms": null,
+      "error": "超时（8 秒无响应）",
+      "checked_at": "2026-11-25 19:10:03",
       "history": [
         {
           "t": "2026-11-25 18:04:30",
@@ -990,6 +1008,12 @@
           "ok": true,
           "code": 200,
           "ms": 45
+        },
+        {
+          "t": "2026-11-25 19:10:03",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -1004,7 +1028,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-25 19:04:55",
+      "checked_at": "2026-11-25 19:10:03",
       "history": [
         {
           "t": "2026-11-25 18:04:30",
@@ -1083,9 +1107,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-25 19:10:03",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-11-25 19:10:03"
+  "embedded_at": "2026-11-25 19:15:04"
 }
