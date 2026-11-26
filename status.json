@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-26 16:45:02",
+  "generated_at": "2026-11-26 16:50:02",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -18,9 +18,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 478,
+      "latency_ms": 541,
       "error": null,
-      "checked_at": "2026-11-26 16:40:45",
+      "checked_at": "2026-11-26 16:45:49",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -99,6 +99,12 @@
           "ok": true,
           "code": 200,
           "ms": 478
+        },
+        {
+          "t": "2026-11-26 16:45:49",
+          "ok": true,
+          "code": 200,
+          "ms": 541
         }
       ]
     },
@@ -111,9 +117,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 978,
+      "latency_ms": 481,
       "error": null,
-      "checked_at": "2026-11-26 16:40:46",
+      "checked_at": "2026-11-26 16:45:49",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -192,6 +198,12 @@
           "ok": true,
           "code": 200,
           "ms": 978
+        },
+        {
+          "t": "2026-11-26 16:45:49",
+          "ok": true,
+          "code": 200,
+          "ms": 481
         }
       ]
     },
@@ -204,9 +216,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 650,
+      "latency_ms": 620,
       "error": null,
-      "checked_at": "2026-11-26 16:40:46",
+      "checked_at": "2026-11-26 16:45:49",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -285,6 +297,12 @@
           "ok": true,
           "code": 200,
           "ms": 650
+        },
+        {
+          "t": "2026-11-26 16:45:49",
+          "ok": true,
+          "code": 200,
+          "ms": 620
         }
       ]
     },
@@ -297,9 +315,9 @@
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 1419,
+      "latency_ms": 1423,
       "error": null,
-      "checked_at": "2026-11-26 16:40:47",
+      "checked_at": "2026-11-26 16:45:50",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -378,6 +396,12 @@
           "ok": true,
           "code": 200,
           "ms": 1419
+        },
+        {
+          "t": "2026-11-26 16:45:50",
+          "ok": true,
+          "code": 200,
+          "ms": 1423
         }
       ]
     },
@@ -392,7 +416,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)",
-      "checked_at": "2026-11-26 16:40:47",
+      "checked_at": "2026-11-26 16:45:50",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -468,6 +492,12 @@
         },
         {
           "t": "2026-11-26 16:40:47",
+          "ok": false,
+          "code": null,
+          "ms": null
+        },
+        {
+          "t": "2026-11-26 16:45:50",
           "ok": false,
           "code": null,
           "ms": null
@@ -485,7 +515,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-26 16:40:47",
+      "checked_at": "2026-11-26 16:45:50",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -564,6 +594,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-26 16:45:50",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -578,7 +614,7 @@
       "status_code": 200,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-11-26 16:40:47",
+      "checked_at": "2026-11-26 16:45:50",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -657,6 +693,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-11-26 16:45:50",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -671,7 +713,7 @@
       "status_code": 200,
       "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-11-26 16:40:47",
+      "checked_at": "2026-11-26 16:45:50",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -750,6 +792,12 @@
           "ok": true,
           "code": 200,
           "ms": 3
+        },
+        {
+          "t": "2026-11-26 16:45:50",
+          "ok": true,
+          "code": 200,
+          "ms": 3
         }
       ]
     },
@@ -762,9 +810,9 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 2,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-11-26 16:40:47",
+      "checked_at": "2026-11-26 16:45:50",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -843,6 +891,12 @@
           "ok": true,
           "code": 404,
           "ms": 2
+        },
+        {
+          "t": "2026-11-26 16:45:50",
+          "ok": true,
+          "code": 404,
+          "ms": 3
         }
       ]
     },
@@ -855,9 +909,9 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 3046,
+      "latency_ms": 3061,
       "error": null,
-      "checked_at": "2026-11-26 16:40:48",
+      "checked_at": "2026-11-26 16:45:51",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -936,6 +990,12 @@
           "ok": true,
           "code": 200,
           "ms": 3046
+        },
+        {
+          "t": "2026-11-26 16:45:51",
+          "ok": true,
+          "code": 200,
+          "ms": 3061
         }
       ]
     },
@@ -950,7 +1010,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-26 16:40:48",
+      "checked_at": "2026-11-26 16:45:51",
       "history": [
         {
           "t": "2026-11-26 15:40:06",
@@ -1029,9 +1089,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-26 16:45:51",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-11-26 16:45:02"
+  "embedded_at": "2026-11-26 16:50:02"
 }
