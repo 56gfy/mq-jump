@@ -1,6 +1,6 @@
 {
   "service": "MuQing 线上服务监控探针",
-  "generated_at": "2026-11-28 02:40:07",
+  "generated_at": "2026-11-28 02:45:06",
   "interval": 300,
   "summary": {
     "total": 11,
@@ -18,9 +18,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 648,
+      "latency_ms": 847,
       "error": null,
-      "checked_at": "2026-11-28 02:36:09",
+      "checked_at": "2026-11-28 02:41:14",
       "history": [
         {
           "t": "2026-11-28 01:14:48",
@@ -123,6 +123,12 @@
           "ok": true,
           "code": 200,
           "ms": 648
+        },
+        {
+          "t": "2026-11-28 02:41:14",
+          "ok": true,
+          "code": 200,
+          "ms": 847
         }
       ]
     },
@@ -135,9 +141,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 882,
+      "latency_ms": 870,
       "error": null,
-      "checked_at": "2026-11-28 02:36:10",
+      "checked_at": "2026-11-28 02:41:14",
       "history": [
         {
           "t": "2026-11-28 01:14:48",
@@ -240,6 +246,12 @@
           "ok": true,
           "code": 200,
           "ms": 882
+        },
+        {
+          "t": "2026-11-28 02:41:14",
+          "ok": true,
+          "code": 200,
+          "ms": 870
         }
       ]
     },
@@ -252,9 +264,9 @@
       "remark": "",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 859,
+      "latency_ms": 807,
       "error": null,
-      "checked_at": "2026-11-28 02:36:10",
+      "checked_at": "2026-11-28 02:41:14",
       "history": [
         {
           "t": "2026-11-28 01:14:48",
@@ -357,6 +369,12 @@
           "ok": true,
           "code": 200,
           "ms": 859
+        },
+        {
+          "t": "2026-11-28 02:41:14",
+          "ok": true,
+          "code": 200,
+          "ms": 807
         }
       ]
     },
@@ -369,9 +387,9 @@
       "remark": "地址来自 model_addr.json 的 url 字段；本机直连 *.trycloudflare.com 会被重置，需走系统代理。",
       "ok": false,
       "status_code": 502,
-      "latency_ms": 3885,
+      "latency_ms": 2584,
       "error": "HTTP 502",
-      "checked_at": "2026-11-28 02:36:14",
+      "checked_at": "2026-11-28 02:41:17",
       "history": [
         {
           "t": "2026-11-28 01:14:52",
@@ -474,6 +492,12 @@
           "ok": false,
           "code": 502,
           "ms": 3885
+        },
+        {
+          "t": "2026-11-28 02:41:17",
+          "ok": false,
+          "code": 502,
+          "ms": 2584
         }
       ]
     },
@@ -488,7 +512,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[Errno 11001] getaddrinfo failed",
-      "checked_at": "2026-11-28 02:36:14",
+      "checked_at": "2026-11-28 02:41:17",
       "history": [
         {
           "t": "2026-11-28 01:14:52",
@@ -591,6 +615,12 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-28 02:41:17",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     },
@@ -605,7 +635,7 @@
       "status_code": 200,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-11-28 02:36:14",
+      "checked_at": "2026-11-28 02:41:17",
       "history": [
         {
           "t": "2026-11-28 01:14:52",
@@ -708,6 +738,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-11-28 02:41:17",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -722,7 +758,7 @@
       "status_code": 200,
       "latency_ms": 2,
       "error": null,
-      "checked_at": "2026-11-28 02:36:14",
+      "checked_at": "2026-11-28 02:41:17",
       "history": [
         {
           "t": "2026-11-28 01:14:52",
@@ -825,6 +861,12 @@
           "ok": true,
           "code": 200,
           "ms": 2
+        },
+        {
+          "t": "2026-11-28 02:41:17",
+          "ok": true,
+          "code": 200,
+          "ms": 2
         }
       ]
     },
@@ -839,7 +881,7 @@
       "status_code": 200,
       "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-11-28 02:36:14",
+      "checked_at": "2026-11-28 02:41:17",
       "history": [
         {
           "t": "2026-11-28 01:14:52",
@@ -939,6 +981,12 @@
         },
         {
           "t": "2026-11-28 02:36:14",
+          "ok": true,
+          "code": 200,
+          "ms": 3
+        },
+        {
+          "t": "2026-11-28 02:41:17",
           "ok": true,
           "code": 200,
           "ms": 3
@@ -954,9 +1002,9 @@
       "remark": "hermes_cli gateway（aiohttp），根路径无页面属正常，404 即代表进程在线。",
       "ok": true,
       "status_code": 404,
-      "latency_ms": 2,
+      "latency_ms": 3,
       "error": null,
-      "checked_at": "2026-11-28 02:36:14",
+      "checked_at": "2026-11-28 02:41:17",
       "history": [
         {
           "t": "2026-11-28 01:14:52",
@@ -1059,6 +1107,12 @@
           "ok": true,
           "code": 404,
           "ms": 2
+        },
+        {
+          "t": "2026-11-28 02:41:17",
+          "ok": true,
+          "code": 404,
+          "ms": 3
         }
       ]
     },
@@ -1071,9 +1125,9 @@
       "remark": "MuQingConverterCore（uvicorn）。2026-10-16 起改探本机 /health：原 ngrok 公网目标承担的「转换器存活」职责由这里以**本地**（不计额度）方式承担，且 /health 200 是真实健康信号，比原来「根路径 404 = 端口有进程」更强。accept_4xx 保留兜底。",
       "ok": true,
       "status_code": 200,
-      "latency_ms": 3040,
+      "latency_ms": 3050,
       "error": null,
-      "checked_at": "2026-11-28 02:36:14",
+      "checked_at": "2026-11-28 02:41:17",
       "history": [
         {
           "t": "2026-11-28 01:14:52",
@@ -1176,6 +1230,12 @@
           "ok": true,
           "code": 200,
           "ms": 3040
+        },
+        {
+          "t": "2026-11-28 02:41:17",
+          "ok": true,
+          "code": 200,
+          "ms": 3050
         }
       ]
     },
@@ -1190,7 +1250,7 @@
       "status_code": null,
       "latency_ms": null,
       "error": "连接失败：[WinError 10061] 由于目标计算机积极拒绝，无法连接。",
-      "checked_at": "2026-11-28 02:36:14",
+      "checked_at": "2026-11-28 02:41:17",
       "history": [
         {
           "t": "2026-11-28 01:14:52",
@@ -1293,9 +1353,15 @@
           "ok": false,
           "code": null,
           "ms": null
+        },
+        {
+          "t": "2026-11-28 02:41:17",
+          "ok": false,
+          "code": null,
+          "ms": null
         }
       ]
     }
   ],
-  "embedded_at": "2026-11-28 02:40:07"
+  "embedded_at": "2026-11-28 02:45:06"
 }
